@@ -1,0 +1,1280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Smart Home Ecosystem</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="scroll-progress" id="scrollProgress"></div>
+
+<nav class="navbar" id="navbar">
+  <span class="nav-brand"><i class="fa-solid fa-house-signal"></i> Smart Home Ecosystem</span>
+  <button class="hamburger" id="hamburger" aria-label="Menu"><i class="fa-solid fa-bars"></i></button>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#hero" data-i18n="nav.home"><i class="fa-solid fa-house"></i> Home</a></li>
+    <li><a href="#generation" data-i18n="nav.generation">Generation</a></li>
+    <li><a href="#consumption" data-i18n="nav.consumption">Consumption</a></li>
+    <li><a href="#security" data-i18n="nav.security">Security</a></li>
+    <li><a href="#gallery" data-i18n="nav.gallery">Gallery</a></li>
+    <li><a href="#conclusion" data-i18n="nav.conclusion">Conclusion</a></li>
+  </ul>
+  <div class="nav-actions">
+    <button class="lang-btn" id="langBtn" title="Switch Language">BN</button>
+    <button class="theme-btn" id="themeBtn" title="Toggle Theme"><i class="fa-solid fa-moon"></i></button>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="hero">
+  <div class="hero-blur" id="heroBlur"></div>
+  <div class="hero-sharp" id="heroSharp"></div>
+  <div class="hero-icon"><i class="fa-solid fa-microchip"></i></div>
+  <h1 id="heroTitle">Smart Home Ecosystem</h1>
+  <p id="heroTagline">An Integrated Outline for a Sustainable Future Lifestyle</p>
+</section>
+
+<!-- PRESENTER -->
+<section class="section" id="presenter">
+  <div class="container">
+    <h2 class="section-title" id="presenterTitle">1. Presenter Introduction</h2>
+    <table class="info-table">
+      <tr><td id="pLabel0">Name</td><td id="pValue0">Md Kamrul Islam</td></tr>
+      <tr><td id="pLabel1">Institution</td><td id="pValue1">Sylhet Polytechnic Institute</td></tr>
+      <tr><td id="pLabel2">Department</td><td id="pValue2">Electrical Technology</td></tr>
+      <tr><td id="pLabel3">Roll Number</td><td id="pValue3">775259</td></tr>
+      <tr><td id="pLabel4">Registration Number</td><td id="pValue4">1502291852</td></tr>
+      <tr><td id="pLabel5">Session</td><td id="pValue5">22-23</td></tr>
+      <tr><td id="pLabel6">Project Name</td><td id="pValue6">Smart Home Ecosystem</td></tr>
+      <tr><td id="pLabel7">Project ID</td><td id="pValue7">61016080</td></tr>
+    </table>
+    <div class="presenter-bio" id="presenterBio"></div>
+  </div>
+</section>
+
+<!-- CORE IDEA -->
+<section class="section section-alt" id="coreidea">
+  <div class="container">
+    <h2 class="section-title" id="coreTitle">2. Core Idea of the Project</h2>
+    <p style="text-align:center;color:var(--text-muted);max-width:800px;margin:0 auto 30px;font-size:0.95rem" id="coreDesc"></p>
+    <div class="two-col">
+      <div class="pillar-card">
+        <div class="icon"><i class="fa-solid fa-solar-panel"></i></div>
+        <h3 id="pillar1Title">Generation</h3>
+        <p id="pillar1Desc"></p>
+      </div>
+      <div class="pillar-card">
+        <div class="icon"><i class="fa-solid fa-brain"></i></div>
+        <h3 id="pillar2Title">Consumption</h3>
+        <p id="pillar2Desc"></p>
+      </div>
+    </div>
+    <p style="text-align:center;color:var(--text-muted);max-width:800px;margin:24px auto 0;font-size:0.92rem;font-style:italic" id="coreUniqueStatement"></p>
+  </div>
+</section>
+
+<!-- GENERATION -->
+<section class="section" id="generation">
+  <div class="container">
+    <h2 class="section-title" id="genTitle">3. Generation: The Hidden Deception in the Solar Panel Industry and My Solution</h2>
+
+    <!-- 3.1 -->
+    <div class="info-box"><h4><i class="fa-solid fa-magnifying-glass"></i> <span id="gen31Title">3.1 The Root of the Problem — STC Rating and Company Deception</span></h4>
+    <p id="gen31Content1"></p>
+    <p id="gen31Content2"></p>
+    <ul>
+      <li id="gen31Stc1"></li>
+      <li id="gen31Stc2"></li>
+      <li id="gen31Stc3"></li>
+    </ul>
+    <p id="gen31Eff"></p>
+    <div class="highlight-box" id="gen31Deception"></div>
+    </div>
+
+    <!-- 3.2 -->
+    <div class="info-box" style="margin-top:24px"><h4><i class="fa-solid fa-temperature-high"></i> <span id="gen32Title">3.2 Why We Don't Get Electricity According to the Rating? (Detailed Analysis)</span></h4>
+    <p id="gen32Content"></p>
+    <div class="calc-box">
+      <div id="gen32Calc1"></div>
+      <div id="gen32Calc2"></div>
+      <div id="gen32Calc3"></div>
+      <div id="gen32Calc4"></div>
+      <div id="gen32Calc5"></div>
+      <div class="result" id="gen32CalcResult"></div>
+      <div id="gen32Calc6"></div>
+      <div id="gen32Calc7"></div>
+      <div id="gen32CalcLifespan" style="margin-top:10px;font-style:italic"></div>
+      <div id="gen32Calc8"></div>
+    </div>
+    <p id="gen32Example"></p>
+    </div>
+
+    <!-- 3.3 -->
+    <div class="info-box" style="margin-top:24px"><h4><i class="fa-solid fa-lightbulb"></i> <span id="gen33Title">3.3 My Technical Solution: Smart Solar System</span></h4>
+    <p id="gen33Intro"></p>
+    <p><strong id="gen33Feat1Title">Feature 1: Water Cooling System</strong></p>
+    <p id="gen33Feat1Desc"></p>
+    <p><strong id="gen33Feat2Title">Feature 2: Dual-Mode Solar Tracker (Sunflower Feature)</strong></p>
+    <p id="gen33Feat2Desc"></p>
+    <div class="highlight-box" id="gen33Combined"></div>
+    </div>
+
+    <!-- 3.4 -->
+    <div class="info-box" style="margin-top:24px"><h4><i class="fa-solid fa-flag"></i> <span id="gen34Title">3.4 National Target and Current Crisis</span></h4>
+    <p id="gen34Content"></p>
+    </div>
+
+    <!-- 3.5 -->
+    <div class="info-box" style="margin-top:24px"><h4><i class="fa-solid fa-file-signature"></i> <span id="gen35Title">3.5 Policy Proposal to the Government (RTC Policy Proposal)</span></h4>
+    <p id="gen35Content1"></p>
+    <p id="gen35Content2"></p>
+    <p><strong id="gen35RtcTitle">Proposed RTC conditions for Bangladesh:</strong></p>
+    <ul>
+      <li id="gen35Rtc1"></li>
+      <li id="gen35Rtc2"></li>
+      <li id="gen35Rtc3"></li>
+    </ul>
+    <p><strong id="gen35BenefitsTitle">Benefits if implemented:</strong></p>
+    <ol>
+      <li id="gen35Benefit1"></li>
+      <li id="gen35Benefit2"></li>
+      <li id="gen35Benefit3"></li>
+      <li id="gen35Benefit4"></li>
+      <li id="gen35Benefit5"></li>
+    </ol>
+    </div>
+  </div>
+</section>
+
+<!-- CONSUMPTION -->
+<section class="section section-alt" id="consumption">
+  <div class="container">
+    <h2 class="section-title" id="conTitle">4. Consumption: AI-Based Multi-Agent Platform and Smart Automation System</h2>
+    <p style="text-align:center;color:var(--text-muted);max-width:800px;margin:0 auto 40px;font-size:0.95rem" id="conIntro"></p>
+
+    <!-- 4.1 -->
+    <div class="info-box"><h4><i class="fa-brands fa-telegram"></i> <span id="con41Title">4.1 Control Panel — Interface</span></h4>
+    <p id="con41Content"></p>
+    </div>
+
+    <!-- 4.2 -->
+    <h3 style="color:var(--accent);margin:30px 0 16px;font-size:1.15rem" id="con42Title">4.2 Multi-Agent Architecture — Why is it Unique?</h3>
+    <p id="con42Intro" style="color:var(--text-muted);font-size:0.9rem;margin-bottom:20px"></p>
+    <div class="card-grid col4" id="agentGrid">
+    </div>
+    <p style="text-align:center;margin-top:16px;font-size:0.88rem;font-style:italic;color:var(--text-muted)" id="con42Custom"></p>
+    <div class="agent-extra" id="agentExtra">
+      <h4 id="agentExtraTitle"></h4>
+      <p id="agentExtraDesc"></p>
+    </div>
+
+    <!-- 4.3 -->
+    <h3 style="color:var(--accent);margin:30px 0 16px;font-size:1.15rem" id="con43Title">4.3 Difference from Conventional Systems — Deterministic vs. Probabilistic</h3>
+    <div class="two-col">
+      <div class="info-box"><h4><i class="fa-solid fa-lock"></i> <span id="con43DetTitle">Deterministic (Conventional)</span></h4><p id="con43DetDesc"></p></div>
+      <div class="info-box" style="border-left-color:var(--accent-light)"><h4><i class="fa-solid fa-robot"></i> <span id="con43ProbTitle">Probabilistic (This System)</span></h4><p id="con43ProbDesc"></p></div>
+    </div>
+
+    <!-- 4.4 -->
+    <h3 style="color:var(--accent);margin:30px 0 16px;font-size:1.15rem" id="con44Title">4.4 Working Procedure — How Does the System Work?</h3>
+    <p id="con44Intro" style="color:var(--text-muted);font-size:0.9rem;margin-bottom:16px"></p>
+    <div class="step-list" id="workflowSteps"></div>
+
+    <!-- 4.5 -->
+    <h3 style="color:var(--accent);margin:30px 0 16px;font-size:1.15rem" id="con45Title">4.5 AI Mood Detection and Environment-Dependent Smart Automation</h3>
+    <p id="con45Intro" style="color:var(--text-muted);font-size:0.9rem;margin-bottom:20px"></p>
+    <div class="info-box" style="border-left-color:var(--accent-light)"><p id="con45HowItWorks" style="font-size:0.9rem;color:var(--text-muted);line-height:1.8;white-space:pre-line"></p></div>
+    <div class="card-grid col2" id="moodGrid"></div>
+
+    <!-- 4.6 -->
+    <h3 style="color:var(--accent);margin:30px 0 16px;font-size:1.15rem" id="con46Title">4.6 Real-Time Sensor Data and Smart Fire Safety</h3>
+    <p id="con46Content" style="color:var(--text-muted);font-size:0.9rem;margin-bottom:12px"></p>
+    <ul class="param-list">
+      <li>Temperature</li><li>Humidity</li><li>AQI</li><li>CO₂</li><li>TVOC</li><li>Current</li><li>Voltage</li><li>Power</li>
+    </ul>
+    <p id="con46CustomAuto" style="color:var(--text-muted);font-size:0.9rem;margin-top:12px"></p>
+    <p id="con46Fire" style="color:var(--text-muted);font-size:0.9rem;margin-top:8px"></p>
+
+    <!-- 4.7 -->
+    <h3 style="color:var(--accent);margin:30px 0 16px;font-size:1.15rem" id="con47Title">4.7 Anti-Hacking Security and Local Control</h3>
+    <p id="con47Intro" style="color:var(--text-muted);font-size:0.9rem;margin-bottom:16px"></p>
+    <div class="two-col">
+      <div class="card"><div class="card-icon"><i class="fa-solid fa-tablet-screen-button"></i></div><h3 id="con47TouchTitle">Touchscreen Display</h3><p id="con47TouchDesc"></p></div>
+      <div class="card"><div class="card-icon"><i class="fa-solid fa-shield-halved"></i></div><h3 id="con47MwTitle">Multi-Way Switching</h3><p id="con47MwDesc"></p></div>
+    </div>
+  </div>
+</section>
+
+<!-- SECURITY (Smart Door) -->
+<section class="section" id="security">
+  <div class="container">
+    <h2 class="section-title" id="doorTitle">4.8 Smart Door Security System</h2>
+    <p style="text-align:center;color:var(--text-muted);max-width:700px;margin:0 auto 30px;font-size:0.95rem" id="doorIntro"></p>
+    <div class="card-grid col3">
+      <div class="card"><div class="card-icon"><i class="fa-solid fa-camera"></i></div><h3 id="doorMethod1Title">AI Camera Vision</h3><p id="doorMethod1Desc"></p></div>
+      <div class="card"><div class="card-icon"><i class="fa-solid fa-credit-card"></i></div><h3 id="doorMethod2Title">NFC Card Access</h3><p id="doorMethod2Desc"></p></div>
+      <div class="card"><div class="card-icon"><i class="fa-solid fa-fingerprint"></i></div><h3 id="doorMethod3Title">Biometric Fingerprint</h3><p id="doorMethod3Desc"></p></div>
+    </div>
+    <div class="highlight-box" id="doorSecurityLayers"></div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section class="section section-alt" id="gallery">
+  <div class="container">
+    <h2 class="section-title" id="galleryTitle">Photo Gallery</h2>
+    <div class="gallery-grid" id="galleryGrid"></div>
+  </div>
+</section>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close" id="lightboxClose">&times;</button>
+  <button class="lightbox-prev" id="lightboxPrev"><i class="fa-solid fa-chevron-left"></i></button>
+  <button class="lightbox-next" id="lightboxNext"><i class="fa-solid fa-chevron-right"></i></button>
+  <img src="" alt="" id="lightboxImg">
+</div>
+
+<!-- CONCLUSION -->
+<section class="section" id="conclusion">
+  <div class="container">
+    <h2 class="section-title" id="concTitle">5. Conclusion</h2>
+    <p id="concIntro" style="text-align:center;color:var(--text-muted);max-width:800px;margin:0 auto 24px;font-size:0.95rem"></p>
+    <div class="two-col">
+      <div class="card"><div class="card-icon"><i class="fa-solid fa-solar-panel"></i></div><h3 id="concGenTitle">From Generation</h3><p id="concGenDesc"></p></div>
+      <div class="card"><div class="card-icon"><i class="fa-solid fa-brain"></i></div><h3 id="concConTitle">From Consumption</h3><p id="concConDesc"></p></div>
+    </div>
+    <p style="text-align:center;font-weight:700;font-size:1.1rem;color:var(--accent);margin-top:30px" id="concFinal"></p>
+    <div class="highlight-box" id="concUnifyingVision"></div>
+  </div>
+</section>
+
+<footer class="footer">
+  <p>&copy; 2026 Md. Kamrul Islam &mdash; Sylhet Polytechnic Institute</p>
+  <p>Smart Home Ecosystem &mdash; Project ID: 61016080</p>
+</footer>
+
+<script>
+
+const content = {
+  en: {
+      "nav": {
+        "home": "Home",
+        "generation": "Generation",
+        "consumption": "Consumption",
+        "security": "Security",
+        "gallery": "Gallery",
+        "conclusion": "Conclusion"
+      },
+      "hero": {
+        "title": "Smart Home Ecosystem",
+        "tagline": "An Integrated Outline for a Sustainable Future Lifestyle"
+      },
+      "presenter": {
+        "title": "1. Presenter Introduction",
+        "rows": [
+          [
+            "Name",
+            "Md. Kamrul Islam"
+          ],
+          [
+            "Institution",
+            "Sylhet Polytechnic Institute"
+          ],
+          [
+            "Department",
+            "Electrical Technology"
+          ],
+          [
+            "Roll Number",
+            "775259"
+          ],
+          [
+            "Registration Number",
+            "1502291852"
+          ],
+          [
+            "Session",
+            "22-23"
+          ],
+          [
+            "Project Name",
+            "Smart Home Ecosystem"
+          ],
+          [
+            "Project ID",
+            "61016080"
+          ]
+        ],
+        "bio": "Md. Kamrul Islam is a passionate and forward-thinking student of Electrical Technology, driven by a vision to merge clean energy with artificial intelligence in a way that directly improves human life. From an early stage in his academic journey, he recognized that the world's greatest challenges — energy waste, climate change, and inefficient home automation — are deeply interconnected. Instead of treating them as separate problems, he designed a single unified solution: the “Smart Home Ecosystem.” This project is not merely a collection of gadgets; it is a complete living philosophy that redefines how we generate, manage, and consume energy inside our homes. His work demonstrates strong cross-disciplinary skills spanning electrical engineering, embedded systems, artificial intelligence, software development, and policy analysis — all of which are essential for solving the complex problems of the 21st century."
+      },
+      "coreIdea": {
+        "title": "2. Core Idea of the Project",
+        "desc": "Humanity stands at a critical crossroads. On one hand, the demand for electricity is skyrocketing with every passing year. On the other hand, the fossil fuels that have powered our civilization for over a century are running out and are simultaneously poisoning our planet through carbon emissions and climate change. The entire world, including Bangladesh, is now leaning towards renewable energy — particularly solar power — as the most promising path forward.\n\nHowever, as an engineering student who has studied this problem deeply, I have observed a painful reality: merely installing solar panels on rooftops is not enough. The real challenge lies in two fundamental areas that most people and even many professionals overlook completely:\n\nFirst, if we cannot ensure the MAXIMUM EFFICIENCY of energy generation from those panels, a significant portion of our investment and natural sunlight goes to waste every single day.\n\nSecond, even if we generate sufficient energy, if we cannot ensure its INTELLIGENT AND SAFE CONSUMPTION inside our homes, the entire effort of switching to renewable energy becomes meaningless and unsustainable.\n\nMy “Smart Home Ecosystem” project stands on these two powerful pillars:",
+        "uniqueStatement": "This project is unique because it does not stop at solving just the energy problem or just the automation problem. It connects both ends of the chain — from the sun in the sky to the light bulb in your bedroom — into one seamless, intelligent ecosystem. This holistic approach is what makes it truly innovative and worthy of attention at a national level.",
+        "p1Title": "Generation",
+        "p1Desc": "Ensuring maximum efficiency from solar panels and exposing the hidden deception in the solar panel industry.",
+        "p2Title": "Consumption",
+        "p2Desc": "Smart, safe, and human-centric control of the generated energy through an AI-based multi-agent system."
+      },
+      "generation": {
+        "title": "3. Generation: The Hidden Deception in the Solar Panel Industry and My Solution",
+        "stc": {
+          "title": "3.1 The Root of the Problem — STC Rating and Company Deception",
+          "c1": "When a common person walks into a shop to buy a solar panel, they naturally believe a simple truth: “If I pay for a 100-watt panel, I will get 100 watts of electricity.” Every price tag, every sales pitch, and every advertisement reinforces this belief. After all, when you buy a 1-kilogram packet of rice, you expect to receive exactly 1 kilogram of rice. This is the foundation of fair trade in any civilized society.\n\nBut the solar panel industry has built an invisible wall between “what you pay for” and “what you actually get.” Companies measure a panel's wattage or capacity in a highly specific, idealized laboratory environment called Standard Test Conditions (STC).",
+          "c2": "The STC criteria are:",
+          "stc1": "Irradiance (Sunlight Intensity): 1000 W/m²",
+          "stc2": "Temperature (Cell Temperature): 25°C",
+          "stc3": "Air Mass (Atmosphere Thickness): 1.5",
+          "eff": "At this perfect 25°C temperature, a panel can deliver its maximum rated output. Different panel types achieve: Monocrystalline: 18% to 20% efficiency, Polycrystalline: 15% to 18% efficiency, Thin-Film: 10% to 13% efficiency.",
+          "deception": "The deception is exactly here: these ideal laboratory conditions NEVER exist in the real natural environment of our country — Bangladesh. Our average daytime temperature is far above 25°C, our sunlight intensity fluctuates constantly due to clouds, humidity, and dust. Yet, companies charge us extra money based on these unrealistic STC numbers. Common people do not understand technical datasheets. When a shopkeeper confidently says “this is a 100-watt panel,” they pay for 100 watts in good faith, never knowing that under the blazing Bangladeshi sun, that very same panel will never deliver 100 watts.\n\nImagine buying a car that the company claims can run at 200 km/h, but they tested it only inside a wind tunnel at perfect conditions. On the real roads of Bangladesh — with heat, traffic, and rough surfaces — that car can barely reach 120 km/h. Would you accept that? Yet, this is exactly what happens every day in the solar panel market, and no one is talking about it loudly enough."
+        },
+        "tempCoeff": {
+          "title": "3.2 Why We Don't Get Electricity According to the Rating? (Detailed Scientific Analysis)",
+          "content": "To understand why this energy loss happens, we must first understand a fundamental law of physics related to solar panels: the hotter a solar panel gets, the less electricity it can generate. This is not a manufacturing defect; it is a property of the semiconductor materials used inside every solar cell.\n\nIn Bangladesh, under the intense tropical sun — especially during the long summer months from March to October — the surface temperature of a solar panel installed on a rooftop can easily reach anywhere from 50°C to 70°C. On extreme days, it can even exceed 75°C. To put this into perspective: 70°C is hot enough to fry an egg.\n\nThis temperature-induced performance loss is quantified by a value called the “Temperature Coefficient.” It tells us exactly how much power the panel loses for every 1°C rise above the STC baseline of 25°C. Typically, for every 1°C increase, the output power drops by approximately 0.3% to 0.5%. The exact number depends on the quality of the panel and the manufacturing technology used. This is precisely why experienced engineers always advise people to invest in good quality solar panels — cheaper panels often have a worse (higher) temperature coefficient, meaning they lose even more power in the heat.\n\nNow, let us walk through a crystal-clear calculation to see the real impact on an ordinary Bangladeshi household:",
+          "calcIntro": "Real-World Calculation Example:",
+          "calc1": "You bought a 100-watt solar panel from the market. STC Rated Efficiency: 20%.",
+          "calc2": "At midday in summer, the panel surface reaches 65°C:",
+          "calc3": "Step 1: Temperature difference from STC ➤ 65°C − 25°C = 40°C rise above ideal",
+          "calc4": "Step 2: Calculate efficiency loss ➤ 40 × 0.5% = 20% total efficiency loss",
+          "calc5": "Step 3: Calculate actual final efficiency ➤ 20% × (1 − 0.20) = 16% actual efficiency",
+          "calcResult": "Step 4: Real output from a “100-watt” panel ➤ 100W × (16% / 20%) = only 80 watts",
+          "calc6": "But the losses do not stop here. After accounting for dust accumulation on the panel surface, cloud cover and atmospheric haze (Shading Loss), and wiring and inverter losses in the system:",
+          "calc7": "FINAL OUTPUT: Only 70 to 75 watts from a “100-watt” panel. YOU LOSE 25–30% of what you paid for — every single day.",
+          "calcLifespan": "Let that sink in for a moment. You never, ever receive the remaining 25 to 30 watts — but at the time of purchase, you paid the full price for the entire 100 watts. Over the 25-year lifespan of a typical solar panel, this accumulated loss represents a staggering amount of money and wasted potential.",
+          "example": "Real-life example: I have personally witnessed this tragedy. A person I know invested a significant amount of money to install a 5-kilowatt (5000-watt) solar power system on his rooftop, hoping to eliminate his electricity bills and contribute to a greener Bangladesh. After installation, he was devastated to discover that under real operating conditions, his system was producing only about 3.5 kilowatts. Upon careful analysis, I found that nearly 30% of his system's capacity was being silently stolen by high operating temperatures and the company's dishonest STC rating. He had been cheated out of 1500 watts — enough to power an entire additional household — and he did not even know it.\n\nNow, multiply this single story by the millions of solar panels being installed across Bangladesh, and you begin to understand the true scale of this catastrophe."
+        },
+        "solution": {
+          "title": "3.3 My Technical Solution: Smart Solar System",
+          "intro": "To combat this massive, systemic energy loss and to keep solar panels operating at their true potential, I have designed a project that combines two powerful and complementary features.",
+          "feat1Title": "Feature 1: Water Cooling System",
+          "feat1Desc": "The core goal of the water cooling system is elegantly simple yet profoundly effective: keep the solar panel's surface temperature as close to the ideal 25°C as physically possible. When the panel stays cool, the electricity that would normally be destroyed by the sun's relentless heat is preserved and delivered to your home instead.\n\nHow it works: Just as our own body uses sweat to cool itself on a hot day, the cooling system circulates water across or behind the solar panel to absorb and carry away excess heat. The water acts as a thermal buffer, preventing the panel's temperature from climbing to those destructive 60–70°C levels. Instead, it stabilizes the panel at a much lower, far more efficient operating temperature.\n\nLarge Scale (Commercial Solar Farms): For large solar power plants spanning acres of land, this cooling system is extremely profitable. The one-time cost of installing the cooling infrastructure is dwarfed by the massive amount of extra electricity generated over the system's 25-year lifetime. For a 1-megawatt solar farm, a 20% efficiency gain translates to an additional 200 kilowatts of constant power — worth millions of taka in revenue.\n\nSmall Scale (Home Rooftops): For individual homes with small 1–2 kilowatt setups, the cooling system may not yield dramatic financial returns on its own. However, when combined with the solar tracker described below, the combined efficiency boost makes it worthwhile even for residential users who want maximum value from their investment.\n\nFuture Potential (Floating Solar Plants): With proper government support and vision, this cooling technology opens the door to building floating solar power plants on Bangladesh's vast network of rivers, lakes, and even coastal waters. Since water bodies naturally stay cooler, floating panels already have a thermal advantage — the cooling system amplifies this benefit further. This approach also solves the land scarcity problem that plagues a densely populated country like ours. (Note: Further research is needed on panel corrosion in saltwater environments for coastal applications.)",
+          "feat2Title": "Feature 2: Dual-Mode Solar Tracker (Sunflower Feature)",
+          "feat2Desc": "Have you ever watched a sunflower field? Throughout the day, every single flower slowly turns its head to follow the sun's path across the sky. This beautiful natural phenomenon, called heliotropism, is the direct inspiration for my solar tracker. The principle is simple: to extract the maximum possible energy from sunlight, the solar panel must ALWAYS face the sun directly — never at an angle, never in the shade.\n\nA fixed solar panel, like the ones you typically see on rooftops, only receives direct, perpendicular sunlight for a brief window during the day. For the rest of the day, sunlight hits the panel at an increasingly steep angle, dramatically reducing its energy output. Studies have shown that a fixed panel can lose 20% to 40% of its potential daily energy simply because it cannot follow the sun.\n\nMy tracker solves this problem with two flexible operating modes:\n\nAUTOMATIC MODE (Heliotropic Tracking): Using light sensors positioned at strategic points, the system continuously measures which direction the sunlight is strongest. As the sun moves across the sky from east to west, the tracker automatically rotates the panel to follow it — exactly like a sunflower. The panel is always perpendicular to the incoming sunlight, always operating at its peak absorption angle. The user does not need to do anything; it is fully autonomous from sunrise to sunset.\n\nMANUAL MODE (User Override): The user can also take direct control. By simply turning a potentiometer (a rotary dial), the user can manually adjust the panel's orientation to any desired angle. This is useful for maintenance, testing, or situations where the user wants to optimize for a specific time of day or weather condition.",
+          "combined": "COMBINED IMPACT OF COOLING + TRACKING: Cooling prevents temperature-based losses (up to 20% gain). Tracking prevents angle-based losses (up to 40% gain). Together, these two features can realistically increase the total daily energy harvest from a solar panel by 40% to 60% compared to a standard fixed, uncooled installation. This means a “100-watt” panel in my system can deliver effective output comparable to a 140–160 watt fixed panel — without the user paying anything extra to the manufacturer."
+        },
+        "national": {
+          "title": "3.4 National Target and Current Crisis",
+          "content": "The Government of Bangladesh has announced an ambitious and commendable target: generating 10,000 megawatts of electricity from renewable sources by the year 2030. This vision is critical for our nation's energy security, environmental sustainability, and economic independence. Reducing dependence on imported fossil fuels — which drain billions of dollars from our national treasury every year — is no longer optional; it is a matter of survival.\n\nHowever, here lies the terrifying reality that most policymakers and citizens are unaware of: if the hidden deception behind STC ratings by solar panel companies is not stopped right now, this 10,000 megawatt target will NEVER be achieved in reality. It will only exist on paper.\n\nConsider this scenario: The government proudly announces that Bangladesh has installed 10,000 megawatts of solar capacity. On paper, in reports, and in press conferences, the number looks impressive. But in the real world, under the brutal Bangladeshi sun, 20% to 30% of that capacity vanishes into thin air as heat. The actual electricity feeding into the national grid will be only 7,000 to 8,000 megawatts.\n\nThe result is catastrophic:\n• The government will have spent billions of taka (public money) on capacity that does not exist in practice.\n• Ordinary citizens who invested their hard-earned savings in rooftop solar will never see the returns they were promised.\n• Public trust in renewable energy will collapse, setting back the green energy movement by decades.\n• Our carbon emission reduction targets will be missed, worsening the climate crisis that already threatens Bangladesh more than most nations on Earth.\n\nThis is why my project is not just about technology. It is about justice, transparency, and protecting the future of Bangladesh."
+        },
+        "rtc": {
+          "title": "3.5 Policy Proposal to the Government (RTC Policy Proposal)",
+          "c1": "As an engineering student, I can increase a solar panel's operational efficiency from the technical side by creating cooling and tracking systems. I can help individual users get more electricity from their panels. But the power to stop this nationwide, industry-wide deception does not lie in my hands — it lies with the government.",
+          "c2": "My proposal: The government should mandate that all solar panel companies operating in Bangladesh MUST measure and sell their panels' output capacity based on RTC (Regional Testing Conditions) that reflect the ACTUAL weather and climate of Bangladesh, instead of the misleading lab-based STC.\n\nThis is not a radical or unprecedented idea. Other countries and testing bodies already use more realistic rating standards: PTC (PVUSA Test Conditions) in the United States, CEC (California Energy Commission) ratings, and NOCT (Normal Operating Cell Temperature) ratings. These standards acknowledge the simple truth that a solar panel installed on a hot rooftop performs very differently from one inside a climate-controlled laboratory.",
+          "rtcTitle": "Proposed RTC conditions for Bangladesh:",
+          "rtc1": "Irradiance: 700–850 W/m²",
+          "rtc2": "Temperature: 40°C–50°C",
+          "rtc3": "Air Mass: 1.5–1.7",
+          "benefitsTitle": "If Bangladesh adopts the RTC policy, the benefits will be immediate and far-reaching:",
+          "b1": "CONSUMER JUSTICE: Ordinary Bangladeshis will pay only for the watts they will actually receive in real life. No hidden losses, no silent theft. What you pay for is what you get.",
+          "b2": "INCREASED PUBLIC TRUST: When people see that their solar panels genuinely deliver what was promised, trust and interest in solar energy will soar. More households will adopt solar, accelerating the national transition to clean energy.",
+          "b3": "GOVERNMENT VISION SUCCESS: With honest ratings and real-world performance, the 10,000 MW renewable energy target by 2030 will become genuinely achievable. The government's mega vision will not remain a paper promise — it will become a reality that transforms Bangladesh's energy landscape forever.",
+          "b4": "MARKET CORRECTION: Companies that currently exploit the STC gap will be forced to either improve their panel quality or reduce their prices to reflect actual performance. This creates healthy competition based on real quality, not marketing tricks.",
+          "b5": "GLOBAL LEADERSHIP: Bangladesh can become a pioneer in the developing world by being one of the first nations to mandate region-specific solar panel ratings. This would set an example for other tropical countries facing the exact same deception."
+        }
+      },
+      "consumption": {
+        "title": "4. Consumption: AI-Based Multi-Agent Platform and Smart Automation System",
+        "intro": "Generating electricity efficiently is only half the battle. The other half — equally important — is USING that electricity in the smartest, safest, and most human-centric way possible. This is where the second pillar of my project comes to life.\n\nToday, the market is flooded with products that call themselves “smart home” devices. Smart bulbs, smart plugs, smart switches, smart speakers. But if you look closely, most of these products are merely remote-controlled devices with a mobile app. They are not truly “smart” — they are simply “connected.” The user still has to think about every action, open an app, and manually tap buttons. This is not intelligence; it is just wireless switching with a fancier interface.\n\nMy vision is fundamentally different. I have created a completely new-generation centralized multi-agent AI platform. Think of it not as a collection of smart devices, but as an intelligent living entity that inhabits your home — one that understands you, anticipates your needs, and makes intelligent decisions on your behalf.\n\nThe user talks directly to ONE artificial intelligence through ONE simple interface. But behind the scenes, numerous specialized AI agents — each an expert in its own domain — work together like a well-trained team. The user never needs to know which agent is handling which task. The system intelligently routes every request to the right specialist automatically and transparently.",
+        "c41": {
+          "title": "4.1 Control Panel — Interface",
+          "content": "I have developed a Telegram Bot as the primary interface for controlling this entire ecosystem. The user can send instructions to this bot through simple text messages or voice commands in natural language — exactly like talking to another human being.\n\nExample interactions:\n• “Turn off the lights in the bedroom.”\n• “What is the temperature in the living room right now?”\n• “I am feeling stressed today, help me relax.”\n• “Prepare a healthy meal plan for the next three days.”\n\nThe bot understands the command, processes it through the multi-agent system, controls all relevant devices and services accordingly, and then gives clear, human-readable feedback to the user once the task is complete. The entire process — from command to completion — happens in seconds.\n\nUNLIMITED PLATFORM FLEXIBILITY: Crucially, this capability is not locked into Telegram alone. The underlying architecture is designed to be completely platform-independent. The user can switch to WhatsApp, Email, SMS, Discord, Facebook Messenger, a custom mobile app, a web dashboard, or any other messaging platform at any time — and enjoy the exact same powerful experience. This flexibility ensures that the system can evolve with the user's preferences and with future technologies, never becoming obsolete or tied to a single company's ecosystem."
+        },
+        "c42": {
+          "title": "4.2 Multi-Agent Architecture — Why is it Unique?",
+          "intro": "One of the most critical lessons from modern artificial intelligence research is this: a single, general-purpose AI cannot perform all types of tasks with high quality. When you ask one AI to be a doctor, a chef, a teacher, an electrician, and a financial advisor all at once, the quality of its responses degrades significantly. Worse, it develops a dangerous tendency called “hallucination” — confidently providing incorrect or fabricated information because it lacks the deep, specialized knowledge required for each domain. This is the fundamental flaw in most existing AI assistants. They try to do everything and end up doing nothing perfectly.\n\nMy system solves this problem through a Multi-Agent Architecture. Instead of one overburdened AI, I have deployed an entire team of specialist AI agents, each meticulously designed and optimized for one specific task domain. They do not interfere with each other; they complement each other.",
+          "agents": [
+            {
+              "icon": "fa-house-chimney",
+              "name": "home_agent",
+              "desc": "Controls all household electrical loads, maintains environmental balance, and performs continuous real-time monitoring."
+            },
+            {
+              "icon": "fa-kit-medical",
+              "name": "medical_advisor",
+              "desc": "Provides health, wellness, and medical advice. Answers questions about symptoms, medications, and healthy living practices."
+            },
+            {
+              "icon": "fa-graduation-cap",
+              "name": "educational_tutor",
+              "desc": "Assists with all kinds of studies and learning. Explains concepts, helps with homework, creates study plans, and answers academic queries."
+            },
+            {
+              "icon": "fa-utensils",
+              "name": "personal_chef",
+              "desc": "Creates healthy meal plans, suggests recipes based on available ingredients, and provides cooking guidance tailored to dietary needs."
+            },
+            {
+              "icon": "fa-plane-departure",
+              "name": "travel_planner",
+              "desc": "Plans detailed travel itineraries, suggests destinations, estimates costs, and provides logistical advice for trips."
+            },
+            {
+              "icon": "fa-chart-line",
+              "name": "finance_advisor",
+              "desc": "Offers financial management advice, budget planning, savings strategies, and investment guidance."
+            },
+            {
+              "icon": "fa-globe",
+              "name": "web_search",
+              "desc": "Performs real-time internet searches to fetch the latest information on any topic the user asks about."
+            },
+            {
+              "icon": "fa-comments",
+              "name": "general_chat",
+              "desc": "Engages in natural, friendly, and meaningful conversation — like talking to a knowledgeable friend."
+            }
+          ],
+          "custom": "The possibilities are limited only by imagination. This openness transforms the platform from a product into a living ecosystem that grows and adapts with each user's life.",
+          "extraTitle": "Extensibility — Users Can Create Their Own Agents",
+          "extraDesc": "One of the most powerful features of this architecture is that it is not a closed system. Beyond the pre-built agents listed above, any user can create entirely new AI agents tailored to their own unique needs and add them to the platform. For example:\n\n• A farmer could create a “crop_advisor” agent that provides agricultural advice based on weather and soil data.\n• A business owner could create a “business_analyst” agent that tracks sales, inventory, and customer trends.\n• A student could create an “exam_prep” agent specifically for practicing past exam questions and tracking progress."
+        },
+        "c43": {
+          "title": "4.3 Difference from Conventional Systems — Deterministic vs. Probabilistic",
+          "detTitle": "Deterministic (What Everyone Else Does)",
+          "detDesc": "These systems are pre-coded and rigidly fixed. A programmer writes exact rules like:\n\nIF command == 'turn on light' THEN set light = ON\n\nThe system cannot think. It cannot adapt. It can only follow the exact rules it was given. If the user says something slightly different from what was programmed — like “it is getting dark in here” — the system simply does not understand and does nothing. This is the “smart” home of today: dumb rules wearing a shiny mask of connectivity.",
+          "probTitle": "Probabilistic (What My System Does)",
+          "probDesc": "My system uses artificial intelligence that applies its own reasoning and intelligence to make real-time decisions based on the situation at hand. It does not just match keywords; it understands intent, context, and nuance.\n\nFor example: “It is getting dark in here” ➤ AI understands the user wants more light ➤ AI checks current time, outside weather, room occupancy ➤ AI decides optimal brightness and color ➤ adjusts lights accordingly.\n\nThe same command on a cloudy afternoon might produce a different lighting setting than on a clear summer evening. The system THINKS — it does not just follow rules.\n\nThis probabilistic, intelligence-driven approach is the beating heart of my system. It turns the home from a collection of connected appliances into a truly responsive, adaptive living environment."
+        },
+        "c44": {
+          "title": "4.4 Working Procedure — How Does the System Work?",
+          "intro": "Every time the user issues a command, the system processes it through four carefully orchestrated steps. This pipeline ensures security, intelligence, accuracy, and reliability in every single interaction.",
+          "steps": [
+            {
+              "title": "Step 1 — User Command Input",
+              "desc": "The user sends their command via voice message or text message through the Telegram Bot (or any connected platform). The message can be in natural language — no special syntax or keywords are required. The user speaks naturally, and the system listens."
+            },
+            {
+              "title": "Step 2 — Security Check",
+              "desc": "Before any command is processed, the Security Agent verifies the user's identity against the system database.\n\nScenario A — Unknown User: If the person is not recognized, the system immediately blocks all access and responds with a message providing the contact information of the Root Admin. No unauthorized person can interact with the system in any way.\n\nScenario B — Known User, Insufficient Permission: If the user is recognized but their permission level does not cover the requested action (e.g., a child trying to unlock the main door or change critical system settings), the system politely denies the request and instructs the user to contact the Root Admin for elevated access.\n\nScenario C — Authorized User, Valid Permission: If the user is recognized and has the required permission level, the system seamlessly passes the message to the Classification Agent for the next step.\n\nThis multi-layered security approach ensures that the home remains safe not just from external intruders, but also from accidental or unauthorized actions by household members."
+            },
+            {
+              "title": "Step 3 — Smart Classification",
+              "desc": "This is where the AI truly shines. The user does not need to know which specialist agent handles which type of request. They do not need to type commands like “/medical” or “/finance”. The Classification Agent reads the user's message, deeply analyzes the intent behind the words, and automatically routes the request to the correct specialist agent.\n\n• “What should I eat for dinner?” ➤ routed to personal_chef\n• “My head hurts badly.” ➤ routed to medical_advisor\n• “Turn off the fan.” ➤ routed to home_agent\n• “I need to save more money.” ➤ routed to finance_advisor\n\nThis intelligent routing happens invisibly, instantly, and accurately. The user simply talks — the system figures out the rest."
+            },
+            {
+              "title": "Step 4 — Task Execution",
+              "desc": "The specific AI agent receives the user's request, performs its specialized task with deep domain knowledge, and delivers the result directly back to the user. The response is not a generic template — it is a carefully crafted, context-aware answer that addresses the user's exact need at that exact moment. For home control commands (lights, fans, AC, etc.), the agent confirms the action was taken and optionally reports the new state of the device."
+            }
+          ]
+        },
+        "c45": {
+          "title": "4.5 AI Mood Detection and Environment-Dependent Smart Automation",
+          "intro": "This is, without doubt, the most revolutionary and human-centric feature of the entire system. It represents a paradigm shift in how we think about the relationship between humans and their living spaces.\n\nIn every existing home automation system on the market, the user must explicitly tell the system WHAT to do: “Set the AC to 24 degrees,” “Change the lights to blue,” “Turn on the humidifier.” The user is expected to be an expert on environmental psychology, knowing exactly which combination of temperature, humidity, lighting color, and air quality creates the optimal environment for every situation. This is absurd. No normal person has this knowledge.\n\nMy system flips this relationship entirely. The user simply expresses HOW THEY FEEL or WHAT THEY WANT TO DO — and the AI, using its deep understanding of environmental psychology, real-time sensor data, and situational context, figures out exactly what settings to apply.",
+          "howItWorks": "HOW MOOD DETECTION WORKS:\n\n1. User says: “I am feeling [mood].” or “I want to [activity].”\n2. home_agent analyzes the emotional/activity intent\n3. Sensors collect REAL-TIME data: outside weather (temperature, sunlight, humidity), room conditions (current temperature, humidity, AQI), and time of day (morning, afternoon, evening, night)\n4. AI agent combines: mood/activity analysis, environmental sensor data, and psychological principles of color, temperature, etc.\n5. AI makes a UNIQUE DECISION for this specific moment: which color(s) from 16 million options, what exact temperature, what exact humidity level, what fan/AC speed, how bright the lights should be.\n\nIMPORTANT: The decision is NEVER the same twice. Because the weather, time, and sensor data are different every time, the AI's response adapts uniquely each time.",
+          "moods": [
+            {
+              "emoji": "fa-face-frown",
+              "title": "Stress Mood",
+              "msg": "\"I am feeling very stressed today\"",
+              "desc": "The home_agent immediately recognizes that the user is in a state of mental distress and needs environmental support to calm down and relax. Using real-time sensor data, it checks the current room temperature, humidity, outside weather, and time of day. Then, drawing on research in color psychology (which shows that soft blues, gentle greens, and warm pastels reduce cortisol levels), it selects an appropriate lighting color. The agent also knows from physiological studies that a slightly cool temperature (around 22–24°C) with moderate humidity (50–55%) helps lower heart rate and blood pressure.\n\nOn a hot summer afternoon: The AI might set the AC to 23°C, choose a soft ocean-blue light, activate a gentle fan breeze, and if humidity is high, activate the dehumidifier — all without the user specifying any of these details.\n\nOn a cool winter evening: The AI might choose a warm amber light, set a slightly higher temperature, and avoid the fan entirely — because the environmental context is completely different.\n\nSame command, two completely different responses — because the environment and the user's physiological needs are different."
+            },
+            {
+              "emoji": "fa-face-angry",
+              "title": "Angry / Irritated Mood",
+              "msg": "\"I am very angry right now\"",
+              "desc": "Anger is a high-energy emotional state with elevated adrenaline and heart rate. The AI understands that the environment needs to counter-balance this energy to help the user calm down safely. It might lower the room temperature more aggressively (cooling has a well-documented calming effect), dim the lights to a soft, non-stimulating level, choose deep purple or soft lavender tones (known to soothe irritability), and ensure the room is quiet and undisturbed.\n\nThe agent might even suggest through a gentle message: “I have adjusted the room for you. Would you like to listen to some calming music?” This goes beyond simple environmental control — it is genuinely caring for the user's emotional well-being."
+            },
+            {
+              "emoji": "fa-book-open",
+              "title": "Study Mood",
+              "msg": "\"I want to sit down to study\"",
+              "desc": "Studying demands focus, alertness, and sustained mental energy. The AI knows from cognitive science research that cool white light (around 4000K–5000K color temperature) enhances concentration and reduces drowsiness. It also knows that a slightly cool room (20–22°C) with good air circulation keeps the brain alert.\n\nOn a hot summer day: The AI might choose a crisp cool-white light, set the AC to 21°C, increase fresh air intake to boost oxygen levels (which improves cognitive performance), and reduce humidity to prevent the sluggishness that comes with muggy air.\n\nOn a cold winter day: The AI might choose a neutral white light (since cool white might feel uncomfortable in cold weather), set the heater to 22°C, and ensure sufficient air circulation without making the room drafty.\n\nSame “study mood” command, different lighting, different temperature settings — because the starting environmental conditions are completely different."
+            },
+            {
+              "emoji": "fa-moon",
+              "title": "Sleep Mood",
+              "msg": "\"I want to sleep now\"",
+              "desc": "Sleep is sacred. The AI understands the science of sleep hygiene: darkness triggers melatonin production (the sleep hormone), a cool room (18–22°C) promotes deep sleep, and a gradual transition from wakefulness to sleep is far more natural than an abrupt lights-out.\n\nBased on real-time data: The AI analyzes the outside temperature and current room conditions, then creates the optimal sleep environment. It might dim the lights gradually over 15 minutes (mimicking natural sunset), set the AC to 20°C, ensure optimal humidity for comfortable breathing, and disable any sources of ambient noise. After a preset duration (perhaps 30 minutes), the lights turn off completely, leaving the user in peaceful darkness.\n\nIf the user wakes up in the middle of the night and speaks, the system can activate a very dim, red-tinted night light — red light does not disrupt melatonin production like blue or white light does.\n\nThis level of nuanced, science-backed environmental control is impossible with conventional “smart home” systems. It requires true artificial intelligence — not just programmed rules."
+            },
+            {
+              "emoji": "fa-champagne-glasses",
+              "title": "Party / Joyful Mood",
+              "msg": "\"Friends are coming today, need party mode!\"",
+              "desc": "The AI immediately understands that multiple people will occupy the space, generating additional body heat, humidity, and CO₂. It recalculates the environmental requirements accordingly — not for one person's comfort, but for a group. It might lower the AC setting a few degrees below normal (to offset the extra body heat), increase air circulation significantly, set dynamic, colorful lighting that creates an energetic atmosphere, and activate the sound system.\n\nThe AI might even ask: “How many people are coming? Would you like me to prepare an appropriate lighting scene?” If the user says “about ten people” versus “just two close friends,” the AI's decisions will be entirely different — because the load on the room's environment is entirely different.\n\nCritically, the user never has to say: “Set AC to X, lights to Y, fan to Z.” The user only expresses their intention and feeling. The AI handles everything else — probabilistically, intelligently, and uniquely for each moment."
+            }
+          ]
+        },
+        "c46": {
+          "title": "4.6 Real-Time Sensor Data and Smart Fire Safety",
+          "content": "The system is equipped with advanced environmental sensors that continuously monitor the home's vital signs — just like a hospital monitors a patient's heart rate and blood pressure in real time. Parameters being continuously monitored:",
+          "customAuto": "CUSTOM AUTOMATION: Both the user and the AI agents can create any kind of custom automation rule based on this real-time sensor data. For example:\n• “If temperature exceeds 30°C, turn on the fan.”\n• “If humidity drops below 30%, activate the humidifier.”\n• “If CO₂ exceeds 1000 ppm, open windows or increase ventilation.”\n• “If AQI exceeds 150, alert the user and activate air purifier.”\n• “If power consumption exceeds a set threshold, send an alert.”\n\nThese automations are not static; they can be created, modified, or removed at any time by the user or suggested by the AI based on observed patterns.",
+          "fire": "SMART FIRE DETECTION — A POTENTIALLY LIFE-SAVING FEATURE: Traditional smoke detectors have a critical weakness: they only react AFTER there is enough smoke to trigger the sensor, which often means the fire has already grown significantly. Seconds and minutes matter in a fire — they can be the difference between a small incident and a complete tragedy.\n\nMy system introduces a far more intelligent approach. By analyzing the COMBINED real-time data of temperature and CO₂ levels simultaneously, the system can detect the earliest signatures of a fire — the sudden spike in temperature paired with the rapid rise in CO₂ — long before visible smoke even appears. The system then immediately activates an alarm, sends urgent alerts to the user's phone, and can be configured to automatically cut power to affected areas or notify emergency services.\n\nThis dual-sensor correlation method virtually eliminates false alarms (which plague traditional smoke detectors and cause people to disable them) while providing genuinely faster and more reliable fire detection. It makes the home 100% more secure than any conventional approach."
+        },
+        "c47": {
+          "title": "4.7 Anti-Hacking Security and Local Control",
+          "intro": "Any system connected to the internet faces two inherent risks: hacking by malicious actors and service disruption due to server downtime or internet outages. A smart home that becomes dumb the moment the internet goes down is not truly smart — it is fragile.\n\nTo solve this, I have built two powerful, independent backup systems:",
+          "touchTitle": "Local Touchscreen Display",
+          "touchDesc": "A dedicated touchscreen display is installed locally within the home — physically connected to the system, not dependent on any external network. The user can walk up to this display at any time and: set up or modify any automation rule by touch, view all real-time sensor data on a live dashboard, control every connected device manually via the touch interface, and check system status and receive alerts.\n\nThis works even if the entire internet is down, the Telegram servers are offline, or the main AI cloud service is unreachable. The home remains smart, controllable, and safe — completely independent of external connectivity.",
+          "mwTitle": "Multi-Way Switching (Anti-Hacking Measure)",
+          "mwDesc": "This is perhaps the most important safety feature for real-world reliability. Every single electrical load in the home (lights, fans, AC, sockets, etc.) can be controlled in TWO completely independent ways:\n\nPath A — Microcontroller-based internet control (the “smart” path): Devices are connected to the smart system and controlled via AI.\n\nPath B — Regular traditional manual switch (the “foolproof” path): Standard physical wall switches with NO connection to any network, microcontroller, or the internet whatsoever.\n\nThese two paths exist in parallel. If, for any reason — hacking, microcontroller failure, power surge, internet outage, software bug, or anything else — the smart control path becomes compromised or unavailable, the user simply walks to the wall and uses the good old-fashioned physical switch. The lights turn on. The fan runs. Life continues without interruption.\n\nThis design philosophy is crucial: technology should serve humans, not enslave them. A smart home should enhance reliability, not create new points of failure. By maintaining the simplicity and robustness of traditional switches alongside advanced AI control, my system delivers the best of both worlds."
+        }
+      },
+      "door": {
+        "title": "4.8 Smart Door Security System",
+        "intro": "The entrance to a home is its most critical security point. A weak door lock undermines every other security measure inside the house. To make the home entrance completely secure, convenient, and future-proof, my smart door system offers three state-of-the-art access methods. The user can choose whichever method suits their situation at any given moment.",
+        "methods": [
+          {
+            "icon": "fa-camera",
+            "title": "AI Camera Vision",
+            "desc": "A high-resolution camera installed at the entrance gate continuously scans and analyzes faces in real time using AI-powered facial recognition technology. The system compares every detected face against its authorized personnel database. If a match is found, the door unlocks automatically within seconds — the authorized person does not need to press any button, scan any card, or perform any action at all. The entry experience is seamless and touchless. If a face does NOT match any entry in the database, the door remains securely locked. The system can optionally capture an image of the unknown person and send an alert to the homeowner's phone.\n\nVEHICLE RECOGNITION FEATURE: Beyond human faces, the AI camera can also be trained to recognize authorized vehicles (by license plate or visual characteristics). When an authorized person's car approaches the gate, the system automatically opens the gate, allows the car to enter safely, and then automatically locks the gate after a preset time delay. This eliminates the need for the driver to stop, roll down the window, and interact with any access device — a tremendous convenience, especially during bad weather."
+          },
+          {
+            "icon": "fa-credit-card",
+            "title": "NFC Card Access",
+            "desc": "For users who prefer a tangible access method, the system supports NFC (Near Field Communication) card access. An authorized user simply taps their pre-registered NFC card against the reader near the door, and the door unlocks instantly. This is similar to the access card systems used in modern offices and hotels, but integrated into the home ecosystem. NFC cards are inexpensive, easy to carry in a wallet, and can be quickly deactivated if lost — making them a practical everyday access solution."
+          },
+          {
+            "icon": "fa-fingerprint",
+            "title": "Biometric Fingerprint",
+            "desc": "For the fastest and most personal access experience, a biometric fingerprint sensor is built into the door system. When an authorized person places their finger on the sensor, the system verifies their identity by matching their unique fingerprint pattern against the stored database. Verification happens in a fraction of a second, and the door unlocks immediately. Fingerprint access offers a powerful advantage: unlike cards (which can be lost or stolen) or codes (which can be forgotten or observed), your fingerprint is always with you and cannot be duplicated by casual means. It represents the highest level of convenient security for human entry."
+          }
+        ],
+        "securityLayers": "SECURITY IN LAYERS: All three methods coexist simultaneously. • AI Camera Vision ➤ Hands-free, touchless, vehicle capable. • NFC Card Access ➤ Simple, familiar, easily replaceable. • Biometric Fingerprint ➤ Fastest, most personal, cannot be lost. The user is never dependent on a single access method. If the camera is dirty, use the card. If the card is forgotten, use the fingerprint. Redundancy = Reliability = True security."
+      },
+      "gallery": {
+        "title": "Photo Gallery"
+      },
+      "conclusion": {
+        "title": "5. Conclusion: More Than a Smart Home — A Smart Ecosystem",
+        "intro": "The “Smart Home Ecosystem” project is not just another entry in the increasingly crowded field of home automation. It is a carefully crafted, deeply integrated solution that addresses two of the most urgent challenges of our time — energy crisis and intelligent living — in a single, unified framework.",
+        "genTitle": "From the Generation Perspective",
+        "genDesc": "We ensure that we can harvest the maximum possible energy from nature without any waste, at the correct temperature, and with the optimal angle toward the sun. We expose and challenge the status quo of the solar panel industry that silently robs ordinary citizens of 25–30% of what they paid for. Through the proposed RTC policy, we offer a concrete path for the government to protect its people and achieve its renewable energy targets with integrity and transparency.",
+        "conTitle": "From the Consumption Perspective",
+        "conDesc": "We control that clean, renewable energy using the probabilistic intelligence of artificial intelligence and a multi-agent system that thinks, understands, and cares. This is not automation that follows commands blindly — it is automation that understands human mood, adapts to environmental context, and makes intelligent decisions that genuinely improve quality of life.",
+        "unifyingVision": "THE UNIFYING VISION: This project connects the journey of energy from its origin — the sun — to its final, meaningful use — a comfortable, secure, and responsive home. Every watt of electricity generated is honored, protected, and utilized with maximum intelligence. Nothing is wasted. Nothing is left to chance.",
+        "final": "THIS IS NOT MERELY A SMART HOME.\n\nThis is a self-sufficient, safe, and intelligent ECOSYSTEM for living — where technology does not complicate life, but enriches it; where energy is not wasted, but respected; where the home does not just respond to commands, but understands needs.\n\nThis is the future of living — and it starts here."
+      }
+    },
+  bn: {
+      "nav": {
+        "home": "হোম",
+        "generation": "জেনারেশন",
+        "consumption": "কনজামশন",
+        "security": "সিকিউরিটি",
+        "gallery": "গ্যালারি",
+        "conclusion": "উপসংহার"
+      },
+      "hero": {
+        "title": "স্মার্ট হোম ইকোসিস্টেম",
+        "tagline": "ভবিষ্যতের টেকসই জীবনযাত্রার একটি সমন্বিত রূপরেখা"
+      },
+      "presenter": {
+        "title": "১. উপস্থাপকের পরিচিতি",
+        "rows": [
+          [
+            "নাম",
+            "মোঃ কামরুল ইসলাম"
+          ],
+          [
+            "প্রতিষ্ঠান",
+            "সিলেট পলিটেকনিক ইনস্টিটিউট"
+          ],
+          [
+            "বিভাগ",
+            "ইলেকট্রিক্যাল টেকনোলজি"
+          ],
+          [
+            "রোল নম্বর",
+            "৭৭৫২৫৯"
+          ],
+          [
+            "রেজিস্ট্রেশন নম্বর",
+            "১৫০২২৯১৮৫২"
+          ],
+          [
+            "সেশন",
+            "২২-২৩"
+          ],
+          [
+            "প্রজেক্টের নাম",
+            "স্মার্ট হোম ইকোসিস্টেম"
+          ],
+          [
+            "প্রজেক্ট আইডি",
+            "৬১০১৬০৮০"
+          ]
+        ],
+        "bio": "মোঃ কামরুল ইসলাম ইলেকট্রিক্যাল টেকনোলজির একজন উদ্যমী ও দূরদর্শী শিক্ষার্থী, যিনি ক্লিন এনার্জি ও কৃত্রিম বুদ্ধিমত্তাকে এমনভাবে একসূত্রে গাঁথতে চান যা সরাসরি মানুষের জীবনকে উন্নত করবে। তার একাডেমিক যাত্রার শুরুতেই তিনি উপলব্ধি করেন যে পৃথিবীর অন্যতম বড় সমস্যাগুলো -- শক্তির অপচয়, জলবায়ু পরিবর্তন এবং অদক্ষ হোম অটোমেশন -- গভীরভাবে একে অপরের সাথে জড়িত। এগুলোকে আলাদা সমস্যা হিসেবে না দেখে তিনি তৈরি করেছেন একটি একক সমন্বিত সমাধান: \"স্মার্ট হোম ইকোসিস্টেম।\" এই প্রকল্পটি নিছক কিছু যন্ত্রপাতির সংগ্রহ নয়; এটি একটি পূর্ণাঙ্গ জীবনদর্শন যা পুনর্নির্ধারণ করে আমরা কীভাবে আমাদের ঘরে শক্তি উৎপাদন, ব্যবস্থাপনা ও ব্যবহার করব। তার কাজ একাধারে ইলেকট্রিক্যাল ইঞ্জিনিয়ারিং, এমবেডেড সিস্টেম, কৃত্রিম বুদ্ধিমত্তা, সফটওয়্যার ডেভেলপমেন্ট এবং নীতিনির্ধারণী বিশ্লেষণের মতো বহুমুখী দক্ষতার পরিচয় বহন করে -- যা একবিংশ শতাব্দীর জটিল সমস্যা সমাধানের জন্য অপরিহার্য।"
+      },
+      "coreIdea": {
+        "title": "২. প্রকল্পের মূল ধারণা",
+        "desc": "মানবজাতি আজ এক গুরুত্বপূর্ণ মোড়ে দাঁড়িয়ে। একদিকে বিদ্যুতের চাহিদা বছর বছর আকাশছোঁয়া হচ্ছে। অন্যদিকে যে জীবাশ্ম জ্বালানি শতাব্দীর পর শতাব্দী ধরে আমাদের সভ্যতাকে চালিত করেছে, তা ফুরিয়ে আসছে এবং একইসাথে কার্বন নিঃসরণ ও জলবায়ু পরিবর্তনের মাধ্যমে আমাদের গ্রহকে বিষিয়ে তুলছে। বাংলাদেশসহ পুরো পৃথিবী এখন নবায়নযোগ্য শক্তির দিকে -- বিশেষত সৌরশক্তির দিকে -- সবচেয়ে আশাব্যঞ্জক পথ হিসেবে ঝুঁকছে।\n\nকিন্তু একজন ইঞ্জিনিয়ারিং শিক্ষার্থী হিসেবে যিনি এই সমস্যাটি গভীরভাবে অধ্যায়ন করেছেন, আমি একটি বেদনাদায়ক বাস্তবতা লক্ষ্য করেছি: শুধুমাত্র ছাদে সোলার প্যানেল বসিয়ে দিলেই কাজ শেষ হয় না। আসল চ্যালেঞ্জ লুকিয়ে আছে দুটি মৌলিক ক্ষেত্রে, যা অধিকাংশ মানুষ এবং এমনকি অনেক পেশাদারও পুরোপুরি উপেক্ষা করে থাকেন:\n\nপ্রথমত, যদি আমরা সেই প্যানেলগুলো থেকে শক্তির সর্বোচ্চ দক্ষতা নিশ্চিত করতে না পারি, তাহলে আমাদের বিনিয়োগ ও প্রাকৃতিক সূর্যালোকের বিরাট একটি অংশ প্রতিদিনই অপচয় হয়ে যায়।\n\nদ্বিতীয়ত, যদি আমরা পর্যাপ্ত শক্তি উৎপাদন করার পরও তার বুদ্ধিদীপ্ত ও নিরাপদ ব্যবহার নিশ্চিত করতে না পারি, তাহলে নবায়নযোগ্য শক্তিতে রূপান্তরের পুরো প্রচেষ্টাই অর্থহীন ও টেকসইহীন হয়ে পড়ে।\n\nআমার এই \"স্মার্ট হোম ইকোসিস্টেম\" প্রকল্পটি দাঁড়িয়ে আছে দুটি শক্তিশালী স্তম্ভের উপর:",
+        "uniqueStatement": "এই প্রকল্পটি অনন্য কারণ এটি শুধু শক্তি সমস্যা বা শুধু অটোমেশন সমস্যার সমাধান করেই থেমে থাকে না। এটি শৃঙ্খলের দুই প্রান্তকে -- আকাশের সূর্য থেকে আপনার শোবার ঘরের লাইট বাল্ব পর্যন্ত -- একটি নির্বিঘ্ন, বুদ্ধিমান ইকোসিস্টেমে সংযুক্ত করে। এই সামগ্রিক দৃষ্টিভঙ্গিই এটিকে সত্যিকারের উদ্ভাবনী এবং জাতীয় পর্যায়ে মনোযোগ পাওয়ার যোগ্য করে তোলে।",
+        "p1Title": "জেনারেশন (Generation)",
+        "p1Desc": "সোলার প্যানেলের সর্বোচ্চ দক্ষতা নিশ্চিত করা এবং সোলার প্যানেল শিল্পের আড়ালে লুকিয়ে থাকা প্রতারণা উন্মোচন করা।",
+        "p2Title": "কনজাম্পশন (Consumption)",
+        "p2Desc": "এআই-ভিত্তিক মাল্টি-এজেন্ট সিস্টেমের মাধ্যমে উৎপাদিত শক্তির স্মার্ট, নিরাপদ ও মানবিক নিয়ন্ত্রণ।"
+      },
+      "generation": {
+        "title": "৩. জেনারেশন: সোলার প্যানেল শিল্পের অদৃশ্য প্রতারণা ও আমার সমাধান",
+        "stc": {
+          "title": "৩.১ সমস্যার মূলে -- STC রেটিং এবং কোম্পানির প্রতারণা",
+          "c1": "যখন একজন সাধারণ মানুষ সোলার প্যানেল কিনতে দোকানে যান, তিনি স্বাভাবিকভাবেই একটি সরল সত্যে বিশ্বাস করেন: \"আমি যদি ১০০ ওয়াটের প্যানেলের দাম দিই, তাহলে আমি ১০০ ওয়াট বিদ্যুৎ পাব।\" প্রতিটি দামের ট্যাগ, প্রতিটি বিক্রয়কর্মীর কথাবার্তা, প্রতিটি বিজ্ঞাপন এই বিশ্বাসটিকে আরও শক্তিশালী করে। সর্বোপরি, আপনি যখন ১ কেজি চাল কেনেন, আপনি ঠিক ১ কেজি চাল পাওয়ার আশা করেন। যেকোনো সভ্য সমাজে ন্যায্য ব্যবসার এটাই মূল ভিত্তি।\n\nকিন্তু সোলার প্যানেল শিল্প \"আপনি যা জন্য টাকা দেন\" এবং \"আপনি বাস্তবে যা পান\" -- এই দুটির মাঝখানে একটি অদৃশ্য দেওয়াল তৈরি করে রেখেছে। কোম্পানিগুলো প্যানেলের ওয়াট বা ক্ষমতা পরিমাপ করে একটি অত্যন্ত নির্দিষ্ট, আদর্শিক ল্যাবরেটরি পরিবেশে, যাকে বলা হয় Standard Test Conditions (STC)।",
+          "c2": "STC-এর মানদণ্ডগুলো হলো:",
+          "stc1": "সূর্যের আলোর তীব্রতা (Irradiance): 1000 W/m²",
+          "stc2": "সেলের তাপমাত্রা (Temperature): 25°C",
+          "stc3": "বায়ুর ভর (Air Mass): 1.5",
+          "eff": "এই নিখুঁত 25°C তাপমাত্রায় একটি প্যানেল তার সর্বোচ্চ রেটেড আউটপুট দিতে পারে। বিভিন্ন ধরনের প্যানেলের সর্বোচ্চ দক্ষতা: মনোক্রিস্টালাইন (Monocrystalline): ১৮% থেকে ২০%, পলিক্রিস্টালাইন (Polycrystalline): ১৫% থেকে ১৮%, থিন-ফিল্ম (Thin-Film): ১০% থেকে ১৩%।",
+          "deception": "প্রতারণাটি ঠিক এখানেই: এই আদর্শ ল্যাবরেটরি কন্ডিশন আমাদের দেশের -- বাংলাদেশের -- বাস্তব প্রাকৃতিক পরিবেশে কখনোই বিদ্যমান থাকে না। আমাদের দৈনন্দিন গড় তাপমাত্রা 25°C-এর অনেক উপরে, মেঘ, ধুলোবালি ও আর্দ্রতার কারণে সূর্যের আলোর তীব্রতা প্রতিনিয়ত ওঠানামা করে। অথচ কোম্পানিগুলো এই অবাস্তব STC নম্বরের উপর ভিত্তি করেই আমাদের কাছে বেশি ওয়াট দেখিয়ে অতিরিক্ত টাকা চার্জ করছে। সাধারণ মানুষ টেকনিক্যাল ডাটাশিট বোঝে না। দোকানদার যখন আত্মবিশ্বাসের সাথে বলে \"এটা ১০০ ওয়াটের প্যানেল,\" তখন তারা সরল বিশ্বাসে ১০০ ওয়াটের সম্পূর্ণ দাম পরিশোধ করে -- একথা না জেনেই যে বাংলাদেশের প্রখর রোদের নিচে সেই একই প্যানেল কখনোই ১০০ ওয়াট দেবে না।\n\nকল্পনা করুন, আপনি একটি গাড়ি কিনলেন যেটা কোম্পানির দাবি অনুযায়ী ২০০ কিমি/ঘন্টা গতিতে চলতে পারে, কিন্তু তারা এটি শুধুমাত্র একটি উইন্ড টানেলের ভেতরে নিখুঁত অবস্থায় পরীক্ষা করেছে। বাংলাদেশের বাস্তব রাস্তায় -- গরম, যানজট আর খারাপ রাস্তার মধ্যে -- সেই গাড়িটি কোনোমতে ১২০ কিমি/ঘন্টা তুলতে পারে। আপনি কি তা মেনে নিতেন? অথচ, ঠিক এটাই প্রতিদিন সোলার প্যানেলের বাজারে ঘটছে, এবং এ নিয়ে কেউ জোরে কথা বলছে না।"
+        },
+        "tempCoeff": {
+          "title": "৩.২ কেন আমরা রেটিং অনুযায়ী বিদ্যুৎ পাই না? (বিস্তারিত বৈজ্ঞানিক বিশ্লেষণ)",
+          "content": "কেন এই শক্তির ক্ষতি হয় তা বোঝার জন্য প্রথমে আমাদের পদার্থবিজ্ঞানের একটি মৌলিক নিয়ম বুঝতে হবে: সোলার প্যানেল যত বেশি গরম হয়, তত কম বিদ্যুৎ উৎপাদন করতে পারে। এটি কোনো উৎপাদনগত ত্রুটি নয়; এটি প্রতিটি সোলার সেলের ভেতরে ব্যবহৃত অর্ধপরিবাহী (semiconductor) পদার্থের একটি সহজাত বৈশিষ্ট্য।\n\nবাংলাদেশে, প্রখর গ্রীষ্মমন্ডলীয় রোদের নিচে -- বিশেষত মার্চ থেকে অক্টোবর পর্যন্ত দীর্ঘ গ্রীষ্মকালে -- ছাদে বসানো একটি সোলার প্যানেলের পৃষ্ঠের তাপমাত্রা সহজেই 50°C থেকে 70°C পর্যন্ত পৌঁছাতে পারে। চরম গরমের দিনে এটি 75°C-ও ছাড়িয়ে যেতে পারে। বোঝার জন্য: 70°C তাপমাত্রা ডিম ভাজার জন্য যথেষ্ট গরম।\n\nতাপমাত্রাজনিত এই কর্মক্ষমতা হ্রাসকে একটি মান দিয়ে পরিমাপ করা হয় যার নাম \"টেম্পারেচার কোএফিশিয়েন্ট।\" এটি আমাদের সঠিকভাবে বলে দেয় যে STC বেসলাইন 25°C-এর উপরে প্রতি 1°C তাপমাত্রা বৃদ্ধিতে প্যানেল ঠিক কতটুকু পাওয়ার হারায়। সাধারণত, প্রতি 1°C বৃদ্ধিতে আউটপুট পাওয়ার প্রায় 0.3% থেকে 0.5% করে কমে যায়। সঠিক সংখ্যাটি প্যানেলের গুণগত মান এবং প্রস্তুতকারক কোম্পানির প্রযুক্তির উপর নির্ভর করে। এই কারণেই অভিজ্ঞ ইঞ্জিনিয়াররা সবসময় ভালো মানের সোলার প্যানেল কেনার পরামর্শ দেন -- সস্তা প্যানেলের টেম্পারেচার কোএফিশিয়েন্ট সাধারণত বেশি খারাপ হয়, অর্থাৎ তারা গরমে আরও বেশি পাওয়ার হারায়।\n\nএবার, একজন সাধারণ বাংলাদেশি পরিবারের উপর এর বাস্তব প্রভাব বোঝার জন্য আসুন একটি স্পষ্ট হিসাব দেখি:",
+          "calcIntro": "বাস্তব হিসাবের উদাহরণ:",
+          "calc1": "আপনি বাজার থেকে ১০০ ওয়াটের একটি সোলার প্যানেল কিনলেন। STC অনুযায়ী রেটেড ইফিসিয়েন্সি: ২০%।",
+          "calc2": "গ্রীষ্মের দুপুরে প্যানেলের পৃষ্ঠের তাপমাত্রা পৌঁছালো 65°C:",
+          "calc3": "ধাপ ১: তাপমাত্রার পার্থক্য STC থেকে ➤ 65°C − 25°C = 40°C আদর্শের উপরে বৃদ্ধি",
+          "calc4": "ধাপ ২: ইফিসিয়েন্সি লস হিসাব ➤ 40 × 0.5% = ২০% মোট ইফিসিয়েন্সি লস",
+          "calc5": "ধাপ ৩: প্রকৃত চূড়ান্ত ইফিসিয়েন্সি ➤ 20% × (1 − 0.20) = ১৬% প্রকৃত ইফিসিয়েন্সি",
+          "calcResult": "ধাপ ৪: \"১০০ ওয়াট\" প্যানেলের বাস্তব আউটপুট ➤ 100W × (16% / 20%) = মাত্র ৮০ ওয়াট",
+          "calc6": "কিন্তু ক্ষতি এখানেই থামে না। পরে আরও হিসাব করতে হবে: প্যানেলের উপরিভাগে জমা ধুলোবালি, মেঘ ও বায়ুমন্ডলীয় ধোঁয়াশা (শেডিং লস), ওয়্যারিং ও ইনভার্টারের ক্ষতি:",
+          "calc7": "চূড়ান্ত আউটপুট: \"১০০ ওয়াট\" প্যানেল থেকে মাত্র ৭০-৭৫ ওয়াট। আপনি প্রতিদিন আপনার পরিশোধিত মূল্যের ২৫-৩০% হারাচ্ছেন।",
+          "calcLifespan": "বিষয়টি একটু ভেবে দেখুন। বাকি ২৫ থেকে ৩০ ওয়াট আপনি কখনোই, কখনোই পান না -- কিন্তু কেনার সময় আপনি পুরো ১০০ ওয়াটের সম্পূর্ণ দাম পরিশোধ করেছেন। একটি সাধারণ সোলার প্যানেলের ২৫ বছরের জীবনকাল ধরে এই পুঞ্জীভূত ক্ষতি একটি বিস্ময়কর অঙ্কের টাকা এবং অপচয়িত সম্ভাবনার প্রতিনিধিত্ব করে।",
+          "example": "আমি ব্যক্তিগতভাবে বাস্তব জীবনে এই ট্র্যাজেডি প্রত্যক্ষ করেছি। আমার পরিচিত একজন ব্যক্তি তার ছাদে ৫ কিলোওয়াট (৫০০০ ওয়াট) এর একটি সোলার পাওয়ার সিস্টেম বসানোর জন্য উল্লেখযোগ্য পরিমাণ অর্থ বিনিয়োগ করেছিলেন -- আশা ছিল বিদ্যুৎ বিল শূন্যে নামিয়ে আনা এবং একটি সবুজ বাংলাদেশ গড়ায় অবদান রাখা। ইনস্টলেশনের পর তিনি বিধ্বস্ত হয়ে আবিষ্কার করলেন যে বাস্তব অপারেটিং অবস্থায় তার সিস্টেম মাত্র ৩.৫ কিলোওয়াট উৎপাদন করছে। সতর্ক বিশ্লেষণ করে আমি দেখতে পেলাম, উচ্চ তাপমাত্রা এবং কোম্পানির অসৎ STC রেটিংয়ের কারণে তার সিস্টেমের প্রায় ৩০% ক্ষমতা নীরবে চুরি হয়ে যাচ্ছিল। তিনি ১৫০০ ওয়াটের সমতুল্য -- যা আরেকটি পুরো বাড়ি চালানোর জন্য যথেষ্ট -- থেকে বঞ্চিত হয়েছিলেন, এবং তিনি তা জানতেনও না।\n\nএখন, এই একটি ঘটনাকে বাংলাদেশজুড়ে স্থাপিত লাখ লাখ সোলার প্যানেল দিয়ে গুণ করুন, তাহলেই বুঝতে পারবেন এই বিপর্যয়ের প্রকৃত মাত্রা কত বড়।"
+        },
+        "solution": {
+          "title": "৩.৩ আমার কারিগরি সমাধান: স্মার্ট সোলার সিস্টেম",
+          "intro": "এই ব্যাপক, প্রাতিষ্ঠানিক শক্তির ক্ষতি রোধ করতে এবং সোলার প্যানেলকে তাদের প্রকৃত সামর্থ্যে চালু রাখতে আমি এমন একটি প্রকল্প ডিজাইন করেছি যা দুটি শক্তিশালী ও পরিপূরক ফিচারকে একত্রিত করে।",
+          "feat1Title": "ফিচার ১: ওয়াটার কুলিং সিস্টেম",
+          "feat1Desc": "ওয়াটার কুলিং সিস্টেমের মূল লক্ষ্য সহজ কিন্তু গভীরভাবে কার্যকর: সোলার প্যানেলের পৃষ্ঠের তাপমাত্রা যথাসম্ভব আদর্শ 25°C-এর কাছাকাছি রাখা। প্যানেল ঠান্ডা থাকলে সূর্যের নির্মম তাপে যে বিদ্যুৎ নষ্ট হতো, তা সংরক্ষিত হয়ে আপনার ঘরে পৌঁছাবে।\n\nএটি কীভাবে কাজ করে ধারণাগতভাবে: যেমন গরমের দিনে আমাদের শরীর ঘামের মাধ্যমে নিজেকে ঠান্ডা করে, তেমনি কুলিং সিস্টেম প্যানেলের উপর বা পেছন দিয়ে পানি প্রবাহিত করে অতিরিক্ত তাপ শোষণ করে নিয়ে যায়। পানি একটি তাপীয় বাফার হিসেবে কাজ করে, প্যানেলের তাপমাত্রাকে সেই ধ্বংসাত্মক 60-70°C স্তরে পৌঁছাতে বাধা দেয়। পরিবর্তে, এটি প্যানেলকে অনেক কম, অনেক বেশি কার্যকরী অপারেটিং তাপমাত্রায় স্থিতিশীল রাখে।\n\nবড় পরিসরে (বাণিজ্যিক সোলার ফার্ম): একর-এর পর একর জুড়ে বিস্তৃত বড় সোলার পাওয়ার প্ল্যান্টের জন্য এই কুলিং সিস্টেম অত্যন্ত লাভজনক। কুলিং ইনফ্রাস্ট্রাকচার ইনস্টলের এককালীন খরচ সিস্টেমের ২৫ বছরের আয়ুষ্কালে উৎপাদিত বিপুল পরিমাণ অতিরিক্ত বিদ্যুতের তুলনায় নগণ্য। ১ মেগাওয়াটের একটি সোলার ফার্মের জন্য ২০% ইফিসিয়েন্সি বৃদ্ধি মানে অতিরিক্ত ২০০ কিলোওয়াট ধারাবাহিক পাওয়ার -- যা রাজস্ব হিসেবে কোটি কোটি টাকার সমতুল্য।\n\nছোট পরিসরে (বাসা-বাড়ির ছাদ): ১-২ কিলোওয়াটের ছোট সেটআপের জন্য কুলিং সিস্টেম নিজে একা নাটকীয় আর্থিক লাভ নাও দিতে পারে। কিন্তু নিচে বর্ণিত সোলার ট্র্যাকারের সাথে মিলিয়ে সম্মিলিত ইফিসিয়েন্সি বৃদ্ধি আবাসিক ব্যবহারকারীদের জন্যও এটিকে সার্থক করে তোলে যারা তাদের বিনিয়োগ থেকে সর্বোচ্চ মূল্য পেতে চান।\n\nভবিষ্যৎ সম্ভাবনা (ভাসমান সোলার প্ল্যান্ট): সঠিক সরকারি সহায়তা ও দূরদৃষ্টি থাকলে এই কুলিং প্রযুক্তি বাংলাদেশের বিশাল নদী, হ্রদ ও উপকূলীয় জলরাশিতে ভাসমান সোলার পাওয়ার প্ল্যান্ট নির্মাণের দরজা খুলে দিতে পারে। যেহেতু জলাশয়গুলো প্রাকৃতিকভাবেই ঠান্ডা থাকে, ভাসমান প্যানেলের ইতিমধ্যেই একটি তাপীয় সুবিধা আছে -- কুলিং সিস্টেম এই সুবিধাকে আরও বাড়িয়ে দেয়। এই পদ্ধতি আমাদের মতো ঘনবসতিপূর্ণ দেশের জমির অভাবের সমস্যাও সমাধান করে। (দ্রষ্টব্য: উপকূলীয় এলাকায় লবণাক্ত পানিতে প্যানেলের ক্ষয় নিয়ে আরও গবেষণা প্রয়োজন।)",
+          "feat2Title": "ফিচার ২: ডুয়াল-মোড সোলার ট্র্যাকার (সূর্যমুখী ফিচার)",
+          "feat2Desc": "আপনি কি কখনো সূর্যমুখী ফুলের ক্ষেত দেখেছেন? সারাদিন ধরে প্রতিটি ফুল ধীরে ধীরে তার মাথা ঘুরিয়ে আকাশে সূর্যের পথ অনুসরণ করে। হেলিওট্রপিজম নামের এই সুন্দর প্রাকৃতিক ঘটনাটিই আমার সোলার ট্র্যাকারের সরাসরি অনুপ্রেরণা। মূলনীতিটি সহজ: সূর্যের আলো থেকে সর্বোচ্চ শক্তি সংগ্রহ করতে হলে সোলার প্যানেলকে সবসময় সরাসরি সূর্যের দিকে মুখ করে থাকতে হবে -- কখনোই কোণ করে বা ছায়ায় নয়।\n\nএকটি স্থির সোলার প্যানেল, যেমন আপনি সাধারণত ছাদে দেখেন, দিনের শুধুমাত্র কিছু সময়ের জন্য সরাসরি, লম্বভাবে সূর্যালোক পায়। দিনের বাকি সময় সূর্যালোক প্যানেলে ক্রমশ ঢালু কোণে পড়ে, যা নাটকীয়ভাবে শক্তি উৎপাদন কমিয়ে দেয়। গবেষণায় দেখা গেছে যে একটি স্থির প্যানেল তার সম্ভাব্য দৈনিক শক্তির ২০% থেকে ৪০% পর্যন্ত হারাতে পারে -- শুধুমাত্র সূর্যকে অনুসরণ করতে না পারার কারণে।\n\nআমার ট্র্যাকার এই সমস্যার সমাধান করে দুটি নমনীয় অপারেটিং মোডের মাধ্যমে:\n\nঅটোমেটিক মোড (সূর্যমুখী ট্র্যাকিং): কৌশলগত পয়েন্টে বসানো আলোক সেন্সর ব্যবহার করে সিস্টেমটি ক্রমাগত পরিমাপ করে যে কোন দিকে সূর্যের আলো সবচেয়ে প্রবল। সূর্য পূর্ব থেকে পশ্চিমে আকাশে চলার সাথে সাথে ট্র্যাকার স্বয়ংক্রিয়ভাবে প্যানেলটিকে ঘুরিয়ে সূর্যকে অনুসরণ করে -- ঠিক সূর্যমুখী ফুলের মতো। প্যানেলটি সবসময় আগত সূর্যালোকের সাথে লম্ব থাকে, সবসময় সর্বোচ্চ শোষণ কোণে পরিচালিত হয়। ব্যবহারকারীকে কিছুই করতে হয় না; সূর্যোদয় থেকে সূর্যাস্ত পর্যন্ত এটি সম্পূর্ণ স্বয়ংক্রিয়।\n\nম্যানুয়াল মোড (ব্যবহারকারীর নিয়ন্ত্রণ): ব্যবহারকারী চাইলে সরাসরি নিয়ন্ত্রণও নিতে পারেন। শুধু একটি পটেনশিওমিটার (ঘূর্ণায়মান ডায়াল) ঘুরিয়েই ব্যবহারকারী নিজের হাতে প্যানেলের দিক যে কোনো কাঙ্ক্ষিত কোণে সমন্বয় করতে পারেন। রক্ষণাবেক্ষণ, পরীক্ষা-নিরীক্ষা বা দিনের নির্দিষ্ট সময় বা আবহাওয়ার জন্য অপটিমাইজ করতে এটি কার্যকর।",
+          "combined": "কুলিং + ট্র্যাকিং-এর সম্মিলিত প্রভাব: কুলিং তাপমাত্রাজনিত ক্ষতি প্রতিরোধ করে (২০% পর্যন্ত লাভ)। ট্র্যাকিং কোণ-জনিত ক্ষতি প্রতিরোধ করে (৪০% পর্যন্ত লাভ)। একত্রে, এই দুটি ফিচার একটি স্ট্যান্ডার্ড স্থির, আনকুল্ড ইনস্টলেশনের তুলনায় সোলার প্যানেলের দৈনিক মোট শক্তি সংগ্রহ ৪০% থেকে ৬০% পর্যন্ত বৃদ্ধি করতে পারে। এর অর্থ হলো: আমার সিস্টেমে একটি \"১০০ ওয়াট\" প্যানেল ১৪০-১৬০ ওয়াটের একটি স্থির প্যানেলের সমতুল্য কার্যকরী আউটপুট দিতে পারে -- ব্যবহারকারীকে প্রস্তুতকারককে কোনো অতিরিক্ত টাকা না দিয়েই।"
+        },
+        "national": {
+          "title": "৩.৪ জাতীয় লক্ষ্যমাত্রা ও বর্তমান সংকট",
+          "content": "বাংলাদেশ সরকার ২০৩০ সালের মধ্যে নবায়নযোগ্য উৎস থেকে ১০,০০০ মেগাওয়াট বিদ্যুৎ উৎপাদনের একটি উচ্চাভিলাষী ও প্রশংসনীয় লক্ষ্যমাত্রা ঘোষণা করেছে। এই ভিশন আমাদের জাতীয় জ্বালানি নিরাপত্তা, পরিবেশগত টেকসইতা এবং অর্থনৈতিক স্বাধীনতার জন্য অত্যন্ত গুরুত্বপূর্ণ। আমদানি করা জীবাশ্ম জ্বালানির উপর নির্ভরতা কমানো -- যা প্রতি বছর আমাদের জাতীয় কোষাগার থেকে বিলিয়ন বিলিয়ন টাকা নিষ্কাশন করে -- আর ঐচ্ছিক নয়; এটি টিকে থাকার প্রশ্ন।\n\nকিন্তু এখানেই লুকিয়ে আছে ভয়াবহ বাস্তবতা যা অধিকাংশ নীতিনির্ধারক ও নাগরিক জানেন না: যদি সোলার প্যানেল কোম্পানিগুলোর STC রেটিং-এর আড়ালে লুকিয়ে থাকা প্রতারণা এখনই বন্ধ না করা হয়, তাহলে এই ১০,০০০ মেগাওয়াট লক্ষ্যমাত্রা বাস্তবে কখনোই পূরণ হবে না। এটি কেবল কাগজে-কলমেই থাকবে।\n\nএই পরিস্থিতি বিবেচনা করুন: সরকার গর্বের সাথে ঘোষণা করে যে বাংলাদেশ ১০,০০০ মেগাওয়াট সোলার ক্ষমতা স্থাপন করেছে। কাগজে, রিপোর্টে, সংবাদ সম্মেলনে সংখ্যাটি চিত্তাকর্ষক দেখায়। কিন্তু বাস্তব পৃথিবীতে, নির্মম বাংলাদেশী রোদের নিচে, সেই ক্ষমতার ২০% থেকে ৩০% তাপ হয়ে বাতাসে মিলিয়ে যায়। জাতীয় গ্রিডে প্রকৃত বিদ্যুৎ প্রবেশ করবে মাত্র ৭,০০০ থেকে ৮,০০০ মেগাওয়াট।\n\nএর ফলাফল ভয়াবহ:\n• সরকার বিলিয়ন বিলিয়ন টাকা (জনগণের অর্থ) খরচ করবে এমন ক্ষমতার পেছনে যা বাস্তবে বিদ্যমান নেই।\n• সাধারণ নাগরিক যারা তাদের কষ্টার্জিত সঞ্চয় ছাদের সোলারে বিনিয়োগ করেছেন, তারা কখনোই প্রতিশ্রুত রিটার্ন দেখতে পাবেন না।\n• নবায়নযোগ্য জ্বালানির উপর জনগণের আস্থা ধ্বসে পড়বে, সবুজ শক্তি আন্দোলন দশকের পর দশক পিছিয়ে যাবে।\n• আমাদের কার্বন নিঃসরণ হ্রাসের লক্ষ্যমাত্রা ব্যর্থ হবে, যা জলবায়ু সংকটকে আরও ভয়াবহ করবে -- যে সংকট ইতিমধ্যেই পৃথিবীর অধিকাংশ দেশের চেয়ে বাংলাদেশকে বেশি হুমকির মুখে ফেলেছে।\n\nএই কারণেই আমার প্রকল্প শুধু প্রযুক্তি নিয়ে নয়। এটি ন্যায়বিচার, স্বচ্ছতা এবং বাংলাদেশের ভবিষ্যৎ রক্ষার বিষয়।"
+        },
+        "rtc": {
+          "title": "৩.৫ সরকারের প্রতি নীতিগত প্রস্তাবনা (RTC Policy Proposal)",
+          "c1": "একজন ইঞ্জিনিয়ারিং শিক্ষার্থী হিসেবে আমি কুলিং ও ট্র্যাকিং সিস্টেম তৈরি করে টেকনিক্যাল দিক থেকে প্যানেলের কর্মদক্ষতা বাড়াতে পারি। আমি ব্যক্তিগত ব্যবহারকারীদের তাদের প্যানেল থেকে বেশি বিদ্যুৎ পেতে সাহায্য করতে পারি। কিন্তু এই দেশব্যাপী, শিল্পব্যাপী প্রতারণা বন্ধ করার নীতিগত ক্ষমতা আমার হাতে নেই -- তা আছে সরকারের হাতে।",
+          "c2": "আমার প্রস্তাব: সরকারের উচিত বাংলাদেশে কার্যরত সকল সোলার প্যানেল কোম্পানিকে বাধ্য করা যেন তারা তাদের প্যানেলের আউটপুট ক্ষমতা পরিমাপ ও বিক্রি করে RTC (Regional Testing Conditions) অনুযায়ী যা বাংলাদেশের বাস্তব আবহাওয়া ও জলবায়ুর প্রতিফলন ঘটায়, বিভ্রান্তিকর ল্যাব-ভিত্তিক STC-এর বদলে।\n\nএটি কোনো উগ্র বা অভূতপূর্ব প্রস্তাব নয়। অন্যান্য দেশ ও পরীক্ষণ সংস্থা ইতিমধ্যেই বেশি বাস্তবসম্মত রেটিং মানদণ্ড ব্যবহার করে: যুক্তরাষ্ট্রে PTC (PVUSA Test Conditions), ক্যালিফোর্নিয়া এনার্জি কমিশনের CEC রেটিং, এবং NOCT (Normal Operating Cell Temperature) রেটিং। এই মানদণ্ডগুলো সাধারণ সত্যটি স্বীকার করে যে গরম ছাদে বসানো একটি সোলার প্যানেল জলবায়ু-নিয়ন্ত্রিত ল্যাবরেটরির ভেতরের প্যানেল থেকে সম্পূর্ণ ভিন্নভাবে কাজ করে।",
+          "rtcTitle": "বাংলাদেশের জন্য প্রস্তাবিত RTC শর্ত (বাস্তব জলবায়ু তথ্যের ভিত্তিতে):",
+          "rtc1": "সূর্যের আলোর তীব্রতা (Irradiance): 700–850 W/m²",
+          "rtc2": "সেলের তাপমাত্রা (Temperature): 40°C–50°C",
+          "rtc3": "বায়ুর ভর (Air Mass): 1.5–1.7",
+          "benefitsTitle": "বাংলাদেশ যদি RTC নীতি গ্রহণ করে, তাহলে সুফল হবে তাৎক্ষণিক ও সুদূরপ্রসারী:",
+          "b1": "ভোক্তার ন্যায়বিচার: সাধারণ বাংলাদেশিরা কেবল সেই ওয়াটের জন্যই টাকা দেবেন যা তারা বাস্তব জীবনে পাবেন। কোনো লুকানো ক্ষতি নয়, কোনো নীরব চুরি নয়। আপনি যা জন্য টাকা দিচ্ছেন, তা-ই পাবেন।",
+          "b2": "জনগণের আস্থা বৃদ্ধি: যখন মানুষ দেখবে যে তাদের সোলার প্যানেল সত্যিই প্রতিশ্রুতি মতো কাজ করছে, তখন সোলার এনার্জির প্রতি বিশ্বাস ও আগ্রহ আকাশচুম্বী হবে। আরও বেশি পরিবার সোলার গ্রহণ করবে, জাতীয় ক্লিন এনার্জি রূপান্তর ত্বরান্বিত হবে।",
+          "b3": "সরকারের ভিশন সফল: সৎ রেটিং এবং বাস্তব কর্মক্ষমতার মাধ্যমে ২০৩০ সালের মধ্যে ১০,০০০ মেগাওয়াট নবায়নযোগ্য শক্তির লক্ষ্যমাত্রা সত্যিকারের অর্জনযোগ্য হয়ে উঠবে। সরকারের মেগা ভিশন কাগজের প্রতিশ্রুতিতে পরিণত হবে না -- এটি বাস্তবে রূপ নেবে যা বাংলাদেশের জ্বালানি চিত্র চিরতরে বদলে দেবে।",
+          "b4": "বাজার সংশোধন: যে কোম্পানিগুলো বর্তমানে STC ব্যবধানকে কাজে লাগায়, তারা বাধ্য হবে হয় প্যানেলের মান উন্নত করতে নয়তো প্রকৃত কর্মক্ষমতার প্রতিফলন ঘটিয়ে দাম কমাতে। এতে প্রকৃত মানের উপর ভিত্তি করে সুস্থ প্রতিযোগিতা সৃষ্টি হবে, মার্কেটিং কৌশল নয়।",
+          "b5": "বৈশ্বিক নেতৃত্ব: বাংলাদেশ উন্নয়নশীল বিশ্বে অগ্রদূত হতে পারে -- প্রথম দেশগুলোর একটি হিসেবে যারা অঞ্চল-নির্দিষ্ট সোলার প্যানেল রেটিং বাধ্যতামূলক করে। এটি অন্যান্য গ্রীষ্মমন্ডলীয় দেশের জন্য উদাহরণ সৃষ্টি করবে যারা ঠিক একই প্রতারণার মুখোমুখি হচ্ছে।"
+        }
+      },
+      "consumption": {
+        "title": "৪. কনজাম্পশন (ব্যবহার): এআই-ভিত্তিক মাল্টি-এজেন্ট প্ল্যাটফর্ম ও স্মার্ট অটোমেশন সিস্টেম",
+        "intro": "দক্ষভাবে বিদ্যুৎ উৎপাদন করা মাত্র অর্ধেক যুদ্ধ। বাকি অর্ধেক -- সমান গুরুত্বপূর্ণ -- সেই বিদ্যুতকে সবচেয়ে স্মার্ট, নিরাপদ ও মানবিক উপায়ে ব্যবহার করা। এখানেই আমার প্রকল্পের দ্বিতীয় স্তম্ভ জীবন্ত হয়ে ওঠে।\n\nআজকের বাজার \"স্মার্ট হোম\" ডিভাইস নামধারী পণ্যে সয়লাব। স্মার্ট বাল্ব, স্মার্ট প্লাগ, স্মার্ট সুইচ, স্মার্ট স্পিকার। কিন্তু ভালো করে দেখলে বোঝা যায়, এই পণ্যগুলোর অধিকাংশই নিছক মোবাইল অ্যাপযুক্ত রিমোট-কন্ট্রোল ডিভাইস। এগুলো প্রকৃত অর্থে \"স্মার্ট\" নয় -- এগুলো কেবল \"সংযুক্ত।\" ব্যবহারকারীকে এখনো প্রতিটি কাজের কথা ভাবতে হয়, অ্যাপ খুলতে হয়, নিজের হাতে বাটন টিপতে হয়। এটি বুদ্ধিমত্তা নয়; এটি শুধু একটু fancy ইন্টারফেসসহ ওয়্যারলেস সুইচিং।\n\nআমার ভিশন সম্পূর্ণ ভিন্ন। আমি তৈরি করেছি সম্পূর্ণ নতুন প্রজন্মের একটি সেন্ট্রালাইজড মাল্টি-এজেন্ট এআই প্ল্যাটফর্ম। একে স্মার্ট ডিভাইসের সংগ্রহ হিসেবে নয়, বরং একটি বুদ্ধিমান জীবন্ত সত্তা হিসেবে ভাবুন যা আপনার বাড়িতে বসবাস করে -- যে আপনাকে বোঝে, আপনার প্রয়োজন আগে থেকেই অনুমান করে, এবং আপনার পক্ষে বুদ্ধিদীপ্ত সিদ্ধান্ত গ্রহণ করে।\n\nব্যবহারকারী একটি মাত্র সরল ইন্টারফেসের মাধ্যমে একটি মাত্র কৃত্রিম বুদ্ধিমত্তার সাথে কথা বলেন। কিন্তু পর্দার আড়ালে অসংখ্য বিশেষজ্ঞ এআই এজেন্ট -- প্রত্যেকে নিজ নিজ ক্ষেত্রে বিশেষজ্ঞ -- একটি প্রশিক্ষিত দলের মতো একসাথে কাজ করে। ব্যবহারকারীকে কখনো জানতে হয় না কোন এজেন্ট কোন কাজ করছে। সিস্টেম বুদ্ধিমত্তার সাথে প্রতিটি অনুরোধ সঠিক বিশেষজ্ঞের কাছে স্বয়ংক্রিয় ও স্বচ্ছভাবে রাউটিং করে।",
+        "c41": {
+          "title": "৪.১ কন্ট্রোল প্যানেল -- ইন্টারফেস",
+          "content": "আমি এই পুরো ইকোসিস্টেম নিয়ন্ত্রণের জন্য একটি টেলিগ্রাম বট তৈরি করেছি প্রাথমিক ইন্টারফেস হিসেবে। ব্যবহারকারী এই বটে সাধারণ টেক্সট মেসেজ বা ভয়েস কমান্ডের মাধ্যমে নির্দেশনা পাঠাতে পারেন -- ঠিক যেন আরেকজন মানুষের সাথে কথা বলছেন।\n\nউদাহরণ ইন্টারঅ্যাকশন:\n• \"বেডরুমের লাইট বন্ধ করো।\"\n• \"এখন লিভিং রুমের তাপমাত্রা কত?\"\n• \"আজ আমার খুব স্ট্রেস লাগছে, রিলাক্স করতে সাহায্য করো।\"\n• \"আগামী তিন দিনের জন্য হেলদি মিল প্ল্যান বানিয়ে দাও।\"\n\nবট কমান্ড বুঝতে পারে, মাল্টি-এজেন্ট সিস্টেমের মাধ্যমে তা প্রক্রিয়া করে, প্রাসঙ্গিক সব ডিভাইস ও সেবা নিয়ন্ত্রণ করে, এবং কাজ শেষে ব্যবহারকারীকে পরিষ্কার, সহজবোধ্য ফিডব্যাক জানায়। সম্পূর্ণ প্রক্রিয়াটি -- কমান্ড থেকে কাজ শেষ পর্যন্ত -- সেকেন্ডের মধ্যে সম্পন্ন হয়।\n\nসীমাহীন প্ল্যাটফর্ম নমনীয়তা: গুরুত্বপূর্ণ বিষয় হলো, এই ক্ষমতা কেবল টেলিগ্রামেই সীমাবদ্ধ নয়। অন্তর্নিহিত আর্কিটেকচার এমনভাবে ডিজাইন করা হয়েছে যেন এটি সম্পূর্ণ প্ল্যাটফর্ম-স্বাধীন। ব্যবহারকারী যে কোনো সময় হোয়াটসঅ্যাপ, ইমেইল, এসএমএস, ডিসকর্ড, ফেসবুক মেসেঞ্জার, একটি কাস্টম মোবাইল অ্যাপ, ওয়েব ড্যাশবোর্ড বা অন্য যেকোনো মেসেজিং প্ল্যাটফর্মে সুইচ করতে পারেন -- এবং একই শক্তিশালী অভিজ্ঞতা উপভোগ করতে পারেন। এই নমনীয়তা নিশ্চিত করে যে সিস্টেম ব্যবহারকারীর পছন্দ ও ভবিষ্যৎ প্রযুক্তির সাথে বিবর্তিত হতে পারে, কোনো একক কোম্পানির ইকোসিস্টেমের কাছে জিম্মি হবে না।"
+        },
+        "c42": {
+          "title": "৪.২ মাল্টি-এজেন্ট আর্কিটেকচার -- কেন এটি অনন্য?",
+          "intro": "আধুনিক কৃত্রিম বুদ্ধিমত্তা গবেষণার অন্যতম গুরুত্বপূর্ণ শিক্ষা হলো: একটি একক, সাধারণ-উদ্দেশ্যের এআই সব ধরনের কাজ উচ্চমানের সাথে করতে পারে না। যখন আপনি একটি এআইকে একসাথে ডাক্তার, বাবুর্চি, শিক্ষক, ইলেকট্রিশিয়ান ও আর্থিক উপদেষ্টা হতে বলেন, তখন তার প্রতিক্রিয়ার মান গুরুতরভাবে খারাপ হয়। আরও বিপজ্জনক হলো, এটি \"হ্যালোসিনেশন\" নামের একটি প্রবণতা তৈরি করে -- অর্থাৎ ভুল বা বানোয়াট তথ্য আত্মবিশ্বাসের সাথে প্রদান করা, কারণ প্রতিটি ডোমেইনের জন্য প্রয়োজনীয় গভীর বিশেষজ্ঞ জ্ঞান এর কাছে নেই। এটি বিদ্যমান বেশিরভাগ এআই সহকারীর মৌলিক দুর্বলতা। তারা সবকিছু করতে গিয়ে শেষ পর্যন্ত কোনোকিছুই নিখুঁত করতে পারে না।\n\nআমার সিস্টেম একটি মাল্টি-এজেন্ট আর্কিটেকচারের মাধ্যমে এই সমস্যার সমাধান করে। একটি অতিরিক্ত বোঝাই এআই নয়, বরং আমি বিশেষজ্ঞ এআই এজেন্টের একটি পুরো দল তৈরি করেছি -- প্রত্যেকে নিখুঁতভাবে ডিজাইন করা ও অপটিমাইজ করা একটি নির্দিষ্ট কাজের ডোমেইনের জন্য। তারা একে অপরকে ব্যহত করে না; তারা একে অপরের পরিপূরক।",
+          "agents": [
+            {
+              "icon": "fa-house-chimney",
+              "name": "home_agent",
+              "desc": "বাসা-বাড়ির সকল বৈদ্যুতিক লোড নিয়ন্ত্রণ করে, পরিবেশের ভারসাম্য রক্ষা করে এবং নিরবচ্ছিন্ন রিয়েল-টাইম মনিটরিং করে।"
+            },
+            {
+              "icon": "fa-kit-medical",
+              "name": "medical_advisor",
+              "desc": "স্বাস্থ্য, সুস্থতা ও চিকিৎসা বিষয়ক পরামর্শ দেয়। লক্ষণ, ওষুধ ও স্বাস্থ্য-সচেতন জীবনযাপন বিষয়ে প্রশ্নের উত্তর দেয়।"
+            },
+            {
+              "icon": "fa-graduation-cap",
+              "name": "educational_tutor",
+              "desc": "সব ধরনের পড়াশোনা ও শেখায় সহায়তা করে। ধারণা ব্যাখ্যা করে, হোমওয়ার্কে সাহায্য করে, পড়ার রুটিন তৈরি করে ও একাডেমিক প্রশ্নের উত্তর দেয়।"
+            },
+            {
+              "icon": "fa-utensils",
+              "name": "personal_chef",
+              "desc": "স্বাস্থ্যকর মিল প্ল্যান তৈরি করে, উপলব্ধ উপকরণের ভিত্তিতে রেসিপি সাজেস্ট করে ও রান্নার নির্দেশনা দেয়।"
+            },
+            {
+              "icon": "fa-plane-departure",
+              "name": "travel_planner",
+              "desc": "ভ্রমণের খুঁটিনাটি পরিকল্পনা তৈরি করে, গন্তব্য সাজেস্ট করে, খরচ অনুমান করে ও লজিস্টিক পরামর্শ দেয়।"
+            },
+            {
+              "icon": "fa-chart-line",
+              "name": "finance_advisor",
+              "desc": "আর্থিক ব্যবস্থাপনা, বাজেট পরিকল্পনা, সঞ্চয় কৌশল ও বিনিয়োগ পরামর্শ দেয়।"
+            },
+            {
+              "icon": "fa-globe",
+              "name": "web_search",
+              "desc": "যেকোনো বিষয়ে সর্বশেষ তথ্য পেতে রিয়েল-টাইম ইন্টারনেট অনুসন্ধান করে।"
+            },
+            {
+              "icon": "fa-comments",
+              "name": "general_chat",
+              "desc": "স্বাভাবিক, আন্তরিক ও অর্থবহ কথাবার্তায় অংশ নেয় -- যেন একজন জ্ঞানী বন্ধুর সাথে কথা বলা।"
+            }
+          ],
+          "custom": "সম্ভাবনা শুধুমাত্র কল্পনা দ্বারা সীমাবদ্ধ। এই উন্মুক্ততা প্ল্যাটফর্মটিকে একটি পণ্য থেকে একটি জীবন্ত ইকোসিস্টেমে রূপান্তরিত করে যা প্রতিটি ব্যবহারকারীর জীবনের সাথে সাথে বেড়ে ওঠে ও খাপ খায়।",
+          "extraTitle": "সম্প্রসারণযোগ্যতা -- ব্যবহারকারী নিজের এজেন্ট বানাতে পারেন",
+          "extraDesc": "এই আর্কিটেকচারের অন্যতম শক্তিশালী ফিচার হলো এটি কোনো বদ্ধ সিস্টেম নয়। উপরে তালিকাভুক্ত এজেন্টগুলোর বাইরেও, যে কোনো ব্যবহারকারী নিজের অনন্য প্রয়োজন অনুযায়ী সম্পূর্ণ নতুন এআই এজেন্ট তৈরি করে প্ল্যাটফর্মে যুক্ত করতে পারেন। উদাহরণস্বরূপ:\n\n• একজন কৃষক \"crop_advisor\" এজেন্ট তৈরি করতে পারেন যা আবহাওয়া ও মাটির তথ্যের ভিত্তিতে কৃষি পরামর্শ দেবে।\n• একজন ব্যবসায়ী \"business_analyst\" এজেন্ট তৈরি করতে পারেন যা বিক্রয়, ইনভেন্টরি ও ক্রেতার প্রবণতা ট্র্যাক করবে।\n• একজন ছাত্র \"exam_prep\" এজেন্ট তৈরি করতে পারেন যা বিগত সালের প্রশ্ন প্র্যাকটিস ও অগ্রগতি ট্র্যাক করবে।"
+        },
+        "c43": {
+          "title": "৪.৩ গতানুগতিক সিস্টেমের সাথে পার্থক্য: ডিটারমিনিস্টিক বনাম প্রোবাবিলিস্টিক",
+          "detTitle": "ডিটারমিনিস্টিক (অন্য সবাই যা করে)",
+          "detDesc": "এই সিস্টেমগুলো আগে থেকে কোড করা এবং rigidly fixed. একজন প্রোগ্রামার সুনির্দিষ্ট নিয়ম লেখে যেমন:\n\nIF command == 'লাইট জ্বালাও' THEN light = ON\n\nসিস্টেম চিন্তা করতে পারে না। মানিয়ে নিতে পারে না। এটি কেবল দেয়া নিয়মগুলোই অনুসরণ করতে পারে। যদি ব্যবহারকারী প্রোগ্রাম করা কমান্ড থেকে একটু ভিন্ন কিছু বলে -- যেমন \"এখানে অন্ধকার হয়ে আসছে।\" -- সিস্টেম কিছুই বোঝে না এবং কিছুই করে না। এটাই আজকের \"স্মার্ট\" হোম: কানেক্টিভিটির চকচকে মুখোশ পরা dumb নিয়ম।",
+          "probTitle": "প্রোবাবিলিস্টিক (আমার সিস্টেম যা করে)",
+          "probDesc": "আমার সিস্টেম কৃত্রিম বুদ্ধিমত্তা ব্যবহার করে যা পরিস্থিতির উপর ভিত্তি করে রিয়েল-টাইম সিদ্ধান্ত গ্রহণের জন্য নিজস্ব যুক্তি ও বুদ্ধি প্রয়োগ করে। এটি শুধু কীওয়ার্ড মেলায় না; এটি উদ্দেশ্য, প্রেক্ষাপট ও সূক্ষ্মতা বোঝে।\n\nউদাহরণ: \"এখানে অন্ধকার হয়ে আসছে।\" ➤ এআই বোঝে: ব্যবহারকারী বেশি আলো চায় ➤ এআই চেক করে বর্তমান সময়, বাইরের আবহাওয়া, রুম অকুপেন্সি ➤ এআই নির্ধারণ করে সর্বোত্তম উজ্জ্বলতা ও রং ➤ সেই অনুযায়ী লাইট এডজাস্ট করে।\n\nএকই কমান্ড মেঘলা বিকেলে এক রকম এবং পরিষ্কার গ্রীষ্মের সন্ধ্যায় আরেক রকম লাইটিং সেটিং তৈরি করতে পারে। সিস্টেম চিন্তা করে -- শুধু নিয়ম অনুসরণ করে না।\n\nএই প্রোবাবিলিস্টিক, বুদ্ধিমত্তা-চালিত দৃষ্টিভঙ্গিই আমার সিস্টেমের স্পন্দিত হৃদয়। এটি বাড়িকে কানেক্টেড যন্ত্রপাতির সংগ্রহ থেকে একটি সত্যিকারের প্রতিক্রিয়াশীল, অভিযোজিত জীবন্ত পরিবেশে রূপান্তরিত করে।"
+        },
+        "c44": {
+          "title": "৪.৪ কার্যপদ্ধতি -- সিস্টেম কীভাবে কাজ করে?",
+          "intro": "যখনই ব্যবহারকারী কোনো কমান্ড দেন, সিস্টেমটি চারটি সতর্কভাবে সাজানো ধাপের মাধ্যমে তা প্রক্রিয়া করে। এই পাইপলাইন প্রতিটি ইন্টারঅ্যাকশনে নিরাপত্তা, বুদ্ধিমত্তা, নির্ভুলতা ও বিশ্বাসযোগ্যতা নিশ্চিত করে।",
+          "steps": [
+            {
+              "title": "ধাপ ১ -- ইউজার কমান্ড ইনপুট",
+              "desc": "ব্যবহারকারী টেলিগ্রাম বটের (বা যেকোনো সংযুক্ত প্ল্যাটফর্মের) মাধ্যমে ভয়েস মেসেজ বা টেক্সট মেসেজে তার কমান্ড পাঠান। মেসেজটি স্বাভাবিক ভাষায় হতে পারে -- কোনো বিশেষ সিনট্যাক্স বা কি-ওয়ার্ডের প্রয়োজন নেই। ব্যবহারকারী স্বাভাবিকভাবে বলেন, সিস্টেম শোনে।"
+            },
+            {
+              "title": "ধাপ ২ -- সিকিউরিটি চেক",
+              "desc": "কোনো কমান্ড প্রক্রিয়া করার আগে সিকিউরিটি এজেন্ট সিস্টেম ডেটাবেজের সাথে মিলিয়ে ব্যবহারকারীর পরিচয় যাচাই করে।\n\nপরিস্থিতি ক -- অচেনা ব্যবহারকারী: যদি ব্যক্তি চেনা না যায়, সিস্টেম তাৎক্ষণিকভাবে সকল এক্সেস ব্লক করে দেয় এবং Root Admin-এর যোগাযোগের তথ্য প্রদানকারী একটি মেসেজ রেসপন্স করে। কোনো অননুমোদিত ব্যক্তি সিস্টেমের সাথে কোনোভাবেই ইন্টারঅ্যাক্ট করতে পারবে না।\n\nপরিস্থিতি খ -- চেনা ব্যবহারকারী, অপর্যাপ্ত অনুমতি: যদি ব্যবহারকারী চেনা যায় কিন্তু তার পারমিশন লেভেল অনুরোধকৃত কাজের জন্য যথেষ্ট না হয় (যেমন, একটি শিশু মূল দরজা খুলতে বা গুরুত্বপূর্ণ সিস্টেম সেটিং বদলাতে চাইলে), সিস্টেম বিনীতভাবে অনুরোধ প্রত্যাখ্যান করে এবং ব্যবহারকারীকে উন্নত এক্সেসের জন্য Root Admin এর সাথে যোগাযোগ করতে বলে।\n\nপরিস্থিতি গ -- অনুমোদিত ব্যবহারকারী, বৈধ অনুমতি: যদি ব্যবহারকারী স্বীকৃত হয় এবং প্রয়োজনীয় পারমিশন লেভেল থাকে, সিস্টেম নির্বিঘ্নে মেসেজটি ক্লাসিফিকেশন এজেন্টের কাছে পাঠিয়ে দেয় পরবর্তী ধাপের জন্য।\n\nএই বহুস্তরী নিরাপত্তা পদ্ধতি নিশ্চিত করে যে বাড়ি শুধু বাইরের অনুপ্রবেশকারীদের থেকে নয়, বরং পরিবারের সদস্যদের অনিচ্ছাকৃত বা অননুমোদিত কাজ থেকেও নিরাপদ থাকে।"
+            },
+            {
+              "title": "ধাপ ৩ -- স্মার্ট ক্লাসিফিকেশন",
+              "desc": "এখানেই এআই সত্যিকার অর্থে উজ্জ্বল হয়। ব্যবহারকারীকে জানতে হয় না কোন বিশেষজ্ঞ এজেন্ট কোন ধরনের অনুরোধ হ্যান্ডেল করে। তাদের \"/medical\" বা \"/finance\" এর মতো কমান্ড টাইপ করতে হয় না। ক্লাসিফিকেশন এজেন্ট ব্যবহারকারীর মেসেজ পড়ে, শব্দগুলোর পেছনের উদ্দেশ্য গভীরভাবে বিশ্লেষণ করে, এবং স্বয়ংক্রিয়ভাবে সঠিক বিশেষজ্ঞ এজেন্টের কাছে অনুরোধটি রাউটিং করে।\n\n• \"রাতের খাবারে কী খাবো?\" ➤ personal_chef-এ রাউট\n• \"আমার মাথা খুব ব্যথা করছে।\" ➤ medical_advisor-এ রাউট\n• \"ফ্যানটা বন্ধ করো।\" ➤ home_agent-এ রাউট\n• \"আমার আরও টাকা জমাতে হবে।\" ➤ finance_advisor-এ রাউট\n\nএই বুদ্ধিমান রাউটিং অদৃশ্যভাবে, তাৎক্ষণিকভাবে ও নির্ভুলভাবে ঘটে। ব্যবহারকারী শুধু বলেন -- সিস্টেম বাকি সব বুঝে নেয়।"
+            },
+            {
+              "title": "ধাপ ৪ -- টাস্ক এক্সিকিউশন",
+              "desc": "নির্দিষ্ট এআই এজেন্ট ব্যবহারকারীর অনুরোধ গ্রহণ করে, গভীর ডোমেইন জ্ঞান দিয়ে তার বিশেষায়িত কাজ সম্পাদন করে, এবং ফলাফল সরাসরি ব্যবহারকারীকে প্রদান করে। প্রতিক্রিয়াটি কোনো জেনেরিক টেমপ্লেট নয় -- এটি একটি সতর্কভাবে তৈরি, প্রসঙ্গ-সচেতন উত্তর যা ঠিক সেই মুহূর্তে ব্যবহারকারীর সঠিক প্রয়োজন পূরণ করে। হোম কন্ট্রোল কমান্ডের (লাইট, ফ্যান, এসি ইত্যাদি) জন্য এজেন্ট নিশ্চিত করে যে কাজ সম্পন্ন হয়েছে এবং ঐচ্ছিকভাবে ডিভাইসটির নতুন অবস্থা জানিয়ে দেয়।"
+            }
+          ]
+        },
+        "c45": {
+          "title": "৪.৫ এআই মুড ডিটেকশন ও পরিবেশ-নির্ভর স্মার্ট অটোমেশন",
+          "intro": "এটি নিঃসন্দেহে পুরো সিস্টেমের সবচেয়ে বিপ্লবী ও মানবকেন্দ্রিক ফিচার। এটি প্রতিনিধিত্ব করে মানুষ ও তার বাসস্থানের মধ্যে সম্পর্ক নিয়ে আমাদের চিন্তাধারার একটি মৌলিক পরিবর্তন।\n\nবাজারে বিদ্যমান প্রতিটি হোম অটোমেশন সিস্টেমে ব্যবহারকারীকে স্পষ্টভাবে বলে দিতে হয় কী করতে হবে: \"এসি ২৪ ডিগ্রি করো,\" \"লাইট নীল করো,\" \"হিউমিডিফায়ার চালু করো।\" ব্যবহারকারীকে পরিবেশগত মনোবিজ্ঞানে বিশেষজ্ঞ হতে হবে, জেনে রাখতে হবে তাপমাত্রা, আর্দ্রতা, আলোর রঙ ও বায়ুর মানের ঠিক কোন সংমিশ্রণ কোন পরিস্থিতির জন্য সর্বোত্তম পরিবেশ তৈরি করে। এটি অযৌক্তিক। কোনো সাধারণ মানুষের এই জ্ঞান থাকে না।\n\nআমার সিস্টেম এই সম্পর্কটিকে সম্পূর্ণ উল্টে দেয়। ব্যবহারকারী শুধু প্রকাশ করেন তারা কেমন অনুভব করছেন বা তারা কী করতে চান -- এবং এআই, পরিবেশগত মনোবিজ্ঞানের গভীর জ্ঞান, রিয়েল-টাইম সেন্সর ডেটা ও পরিস্থিতিগত প্রসঙ্গ ব্যবহার করে, ঠিক কোন সেটিংস প্রয়োগ করতে হবে তা নিজেই বের করে ফেলে।",
+          "howItWorks": "মুড ডিটেকশন কীভাবে কাজ করে:\n\n১. ব্যবহারকারী বলেন: \"আমার [মুড] লাগছে।\" অথবা: \"আমি [কাজ] করতে চাই।\"\n২. home_agent আবেগগত/কর্মগত উদ্দেশ্য বিশ্লেষণ করে\n৩. সেন্সরগুলো রিয়েল-টাইম ডেটা সংগ্রহ করে: বাইরের আবহাওয়া (তাপমাত্রা, রোদ, আর্দ্রতা), রুমের অবস্থা (বর্তমান তাপমাত্রা, আর্দ্রতা, AQI), দিনের সময় (সকাল, দুপুর, বিকেল, রাত)\n৪. এআই এজেন্ট সংযুক্ত করে: মুড/কর্ম বিশ্লেষণ, পরিবেশগত সেন্সর ডেটা, রং/তাপমাত্রা ইত্যাদির মনস্তাত্ত্বিক নীতিমালা\n৫. এআই এই নির্দিষ্ট মুহূর্তের জন্য একটি অনন্য সিদ্ধান্ত নেয়: ১৬ মিলিয়ন রঙের অপশন থেকে কোন রঙ(গুলো)? ঠিক কোন তাপমাত্রা? ঠিক কোন আর্দ্রতার মাত্রা? ফ্যান/এসি-এর গতি কেমন হবে? লাইট কতটা উজ্জ্বল হবে?\n\nগুরুত্বপূর্ণ: সিদ্ধান্ত কখনোই দুইবার একরকম হয় না। কারণ আবহাওয়া, সময় ও সেন্সর ডেটা প্রতিবার আলাদা, তাই এআই-এর প্রতিক্রিয়াও প্রতিবার অনন্যভাবে অভিযোজিত হয়।",
+          "moods": [
+            {
+              "emoji": "fa-face-frown",
+              "title": "স্ট্রেস মুড",
+              "msg": "\"আমি আজ খুব স্ট্রেসড ফিল করছি\"",
+              "desc": "home_agent তাৎক্ষণিকভাবে বুঝতে পারে যে ব্যবহারকারী মানসিক চাপের মধ্যে আছেন এবং শান্ত ও রিলাক্স হওয়ার জন্য পরিবেশগত সহায়তা প্রয়োজন। রিয়েল-টাইম সেন্সর ডেটা ব্যবহার করে এটি রুমের বর্তমান তাপমাত্রা, আর্দ্রতা, বাইরের আবহাওয়া ও দিনের সময় চেক করে। তারপর, রঙের মনোবিজ্ঞানের গবেষণার উপর ভিত্তি করে (যা দেখায় যে নরম নীল, শান্ত সবুজ ও উষ্ণ প্যাস্টেল রং কর্টিসল লেভেল কমায়), এটি উপযুক্ত লাইটিং রঙ নির্বাচন করে। এজেন্টটি শারীরতাত্ত্বিক গবেষণা থেকেও জানে যে সামান্য ঠান্ডা তাপমাত্রা (প্রায় 22–24°C) এবং মাঝারি আর্দ্রতা (50–55%) হৃদস্পন্দন ও রক্তচাপ কমাতে সাহায্য করে।\n\nগরমের দুপুরে: এআই হয়তো এসি 23°C সেট করবে, নরম সমুদ্র-নীল আলো দেবে, ধীর বাতাসের জন্য ফ্যান চালু করবে এবং আর্দ্রতা বেশি থাকলে ডিহিউমিডিফায়ার চালু করবে -- ব্যবহারকারীকে এসবের কিছুই বলে দিতে হবে না।\n\nশীতের সন্ধ্যায়: এআই হয়তো উষ্ণ অ্যাম্বার আলো দেবে, একটু বেশি তাপমাত্রা সেট করবে ও ফ্যান পুরোপুরি এড়িয়ে যাবে -- কারণ পরিবেশগত প্রেক্ষাপট সম্পূর্ণ ভিন্ন।\n\nএকই কমান্ড, সম্পূর্ণ দুই রকম প্রতিক্রিয়া -- কারণ পরিবেশ ও ব্যবহারকারীর শারীরতাত্ত্বিক চাহিদা প্রতিবার আলাদা।"
+            },
+            {
+              "emoji": "fa-face-angry",
+              "title": "রাগান্বিত / বিরক্ত মুড",
+              "msg": "\"আমি এখন খুব রাগান্বিত\"",
+              "desc": "রাগ একটি উচ্চ-শক্তির আবেগগত অবস্থা যেখানে অ্যাড্রেনালিন ও হৃদস্পন্দন বেড়ে যায়। এআই বোঝে যে পরিবেশকে এই শক্তির বিপরীতে কাজ করে ব্যবহারকারীকে নিরাপদে শান্ত করতে হবে। এটি হয়তো রুমের তাপমাত্রা আরও আক্রমণাত্মকভাবে কমাবে (ঠান্ডার একটি সুপ্রতিষ্ঠিত প্রশান্তিদায়ক প্রভাব আছে), আলো নরম, নন-স্টিমুলেটিং লেভেলে ম্লান করবে, গভীর বেগুনি বা নরম ল্যাভেন্ডার টোন বেছে নেবে (যা বিরক্তি কমাতে কার্যকর বলে জানা যায়), এবং রুম শান্ত ও নিরবচ্ছিন্ন রাখবে।\n\nএজেন্টটি হয়তো একটি নরম মেসেজের মাধ্যমে সাজেস্টও করতে পারে: \"আমি আপনার জন্য রুমটি ঠিক করে দিয়েছি। আপনি কি কিছু শান্ত সঙ্গীত শুনতে চান?\" এটি নিছক পরিবেশ নিয়ন্ত্রণের বাইরে গিয়ে -- সত্যিকার অর্থে ব্যবহারকারীর আবেগগত সুস্থতার যত্ন নেয়।"
+            },
+            {
+              "emoji": "fa-book-open",
+              "title": "পড়াশোনার মুড",
+              "msg": "\"আমি পড়তে বসতে চাই\"",
+              "desc": "পড়াশোনার জন্য প্রয়োজন মনোযোগ, সতর্কতা ও টেকসই মানসিক শক্তি। এআই জ্ঞানীয় বিজ্ঞানের গবেষণা থেকে জানে যে ঠান্ডা সাদা আলো (প্রায় 4000K–5000K রঙের তাপমাত্রা) একাগ্রতা বাড়ায় ও তন্দ্রাভাব কমায়। এটি আরও জানে যে একটু ঠান্ডা ঘর (20–22°C) ও ভালো বায়ু চলাচল মস্তিষ্ককে সতর্ক রাখে।\n\nগরমের দিনে: এআই হয়তো স্পষ্ট ঠান্ডা-সাদা আলো বেছে নেবে, এসি 21°C সেট করবে, জ্ঞানীয় কর্মক্ষমতা বাড়াতে তাজা বাতাসের প্রবেশ বাড়াবে (যা অক্সিজেন লেভেল উন্নত করে), এবং আর্দ্রতা কমিয়ে দেবে যে ভ্যাপসা আবহাওয়া আলসেমি আনে।\n\nশীতের দিনে: এআই হয়তো নিরপেক্ষ সাদা আলো বেছে নেবে (যেহেতু ঠান্ডা আবহাওয়ায় ঠান্ডা-সাদা আলো অস্বস্তিকর লাগতে পারে), হিটার 22°C এ সেট করবে, এবং রুমে খসড়া না তৈরি করেও যথেষ্ট বায়ু চলাচল নিশ্চিত করবে।\n\nএকই \"পড়ার মুড\" কমান্ড, ভিন্ন লাইটিং, ভিন্ন তাপমাত্রা সেটিং -- কারণ শুরুর পরিবেশগত অবস্থা সম্পূর্ণ ভিন্ন।"
+            },
+            {
+              "emoji": "fa-moon",
+              "title": "ঘুমের মুড",
+              "msg": "\"আমি এখন ঘুমাতে চাই\"",
+              "desc": "ঘুম পবিত্র। এআই ঘুমের স্বাস্থ্যবিজ্ঞান বোঝে: অন্ধকার মেলাটোনিন (ঘুমের হরমোন) উৎপাদন ট্রিগার করে, ঠান্ডা ঘর (18–22°C) গভীর ঘুমে সহায়তা করে, এবং জাগ্রত থেকে ঘুমন্ত অবস্থায় ধীরে রূপান্তর হঠাৎ লাইট বন্ধের চেয়ে অনেক বেশি স্বাভাবিক।\n\nরিয়েল-টাইম ডেটার উপর ভিত্তি করে: এআই বাইরের তাপমাত্রা ও রুমের বর্তমান অবস্থা বিশ্লেষণ করে, তারপর নিখুঁত ঘুমের পরিবেশ তৈরি করে। এটি হয়তো ১৫ মিনিট ধরে ধীরে ধীরে লাইট ডিম করবে (প্রাকৃতিক সূর্যাস্তের অনুকরণ করে), এসি 20°C সেট করবে, স্বাচ্ছন্দ্যজনক শ্বাস-প্রশ্বাসের জন্য নিখুঁত আর্দ্রতা নিশ্চিত করবে, এবং কোনো পরিবেষ্টিত শব্দের উৎস নিষ্ক্রিয় করবে।\n\nএকটি পূর্বনির্ধারিত সময় পর (হয়তো ৩০ মিনিট), লাইট সম্পূর্ণ বন্ধ হয়ে যাবে, ব্যবহারকারীকে শান্ত অন্ধকারে রেখে। যদি ব্যবহারকারী রাতের মাঝে জেগে কথা বলেন, সিস্টেম একটি অত্যন্ত ম্লান, লাল-আভার নাইট লাইট চালু করতে পারে -- লাল আলো নীল বা সাদা আলোর মতো মেলাটোনিন উৎপাদন ব্যাহত করে না।\n\nএই স্তরের সূক্ষ্ম, বিজ্ঞান-সমর্থিত পরিবেশ নিয়ন্ত্রণ গতানুগতিক \"স্মার্ট হোম\" ব্যবস্থার মাধ্যমে অসম্ভব। এর জন্য দরকার সত্যিকারের কৃত্রিম বুদ্ধিমত্তা -- শুধু প্রোগ্রাম করা নিয়ম নয়।"
+            },
+            {
+              "emoji": "fa-champagne-glasses",
+              "title": "পার্টি / আনন্দের মুড",
+              "msg": "\"আজ বন্ধুরা আসছে, পার্টি মুড দরকার!\"",
+              "desc": "এআই তাৎক্ষণিকভাবে বুঝতে পারে যে ঘরে একাধিক মানুষ থাকবে, যারা অতিরিক্ত শরীরের তাপ, আর্দ্রতা ও CO₂ তৈরি করবে। এটি সেই অনুযায়ী পরিবেশগত প্রয়োজনীয়তা পুনর্গণনা করে -- একজন ব্যক্তির আরামের জন্য নয়, একটি দলের জন্য। এটি হয়তো স্বাভাবিকের চেয়ে কয়েক ডিগ্রি কম এসি সেট করবে (অতিরিক্ত দেহতাপ পূরণ করতে), বায়ু চলাচল উল্লেখযোগ্যভাবে বাড়াবে, গতিময়, রঙিন লাইটিং সেট করবে যা একটি উদ্যমী আবহ তৈরি করে, এবং সাউন্ড সিস্টেম চালু করবে।\n\nএআই হয়তো জিজ্ঞাসাও করতে পারে: \"কতজন আসছেন? আপনি কি আমি একটি উপযুক্ত লাইটিং সিন প্রস্তুত করি?\" যদি ব্যবহারকারী বলেন \"প্রায় দশজন\" বনাম \"শুধু দুইজন কাছের বন্ধু,\" এআই-এর সিদ্ধান্ত সম্পূর্ণ ভিন্ন হবে -- কারণ রুমের পরিবেশের উপর বোঝা সম্পূর্ণ ভিন্ন।\n\nগুরুত্বপূর্ণ: ব্যবহারকারীকে কখনো বলতে হয় না: \"এসি X করো, লাইট Y করো, ফ্যান Z করো।\" ব্যবহারকারী শুধু তাদের ইচ্ছা ও অনুভূতি প্রকাশ করেন। এআই বাকি সব হ্যান্ডেল করে -- প্রোবাবিলিস্টিকভাবে, বুদ্ধিমত্তার সাথে, এবং প্রতিটি মুহূর্তের জন্য অনন্যভাবে।"
+            }
+          ]
+        },
+        "c46": {
+          "title": "৪.৬ রিয়েল-টাইম সেন্সর ডেটা ও স্মার্ট ফায়ার সেফটি",
+          "content": "সিস্টেমটি অত্যাধুনিক পরিবেশগত সেন্সর দিয়ে সজ্জিত যা বাড়ির গুরুত্বপূর্ণ লক্ষণগুলো নিরবচ্ছিন্নভাবে মনিটর করে -- ঠিক যেমন একটি হাসপাতাল রোগীর হৃদস্পন্দন ও রক্তচাপ রিয়েল-টাইমে মনিটর করে। নিরবচ্ছিন্নভাবে মনিটরিং করা প্যারামিটারসমূহ:",
+          "customAuto": "কাস্টম অটোমেশন: ব্যবহারকারী ও এআই এজেন্ট উভয়েই এই রিয়েল-টাইম সেন্সর ডেটার উপর ভিত্তি করে যে কোনো ধরনের কাস্টম অটোমেশন নিয়ম তৈরি করতে পারে। যেমন:\n• \"তাপমাত্রা 30°C ছাড়ালে ফ্যান চালু করো।\"\n• \"আর্দ্রতা 30% এর নিচে নামলে হিউমিডিফায়ার চালু করো।\"\n• \"CO₂ 1000 ppm ছাড়ালে জানালা খোলো বা বাতাস চলাচল বাড়াও।\"\n• \"AQI 150 ছাড়ালে ব্যবহারকারীকে সতর্ক করো ও এয়ার পিউরিফায়ার চালু করো।\"\n• \"বিদ্যুৎ খরচ নির্ধারিত সীমা ছাড়ালে সতর্কবার্তা পাঠাও।\"\n\nএই অটোমেশনগুলো স্থির নয়; ব্যবহারকারী এগুলো যেকোনো সময় তৈরি, পরিবর্তন বা অপসারণ করতে পারেন, অথবা পর্যবেক্ষিত প্যাটার্নের ভিত্তিতে এআই নিজে সাজেস্ট করতে পারে।",
+          "fire": "স্মার্ট ফায়ার ডিটেকশন -- একটি সম্ভাব্য জীবন রক্ষাকারী ফিচার: ঐতিহ্যবাহী ধোঁয়া ডিটেক্টরের একটি বড় দুর্বলতা আছে: এগুলো তখনই প্রতিক্রিয়া করে যখন সেন্সর ট্রিগার করার মতো যথেষ্ট ধোঁয়া তৈরি হয়, যার অর্থ আগুন ইতিমধ্যেই উল্লেখযোগ্যভাবে বেড়ে গেছে। আগুনের ক্ষেত্রে সেকেন্ড ও মিনিট গুরুত্বপূর্ণ -- এগুলো একটি ছোট ঘটনা ও সম্পূর্ণ ট্র্যাজেডির মধ্যে পার্থক্য গড়ে দিতে পারে।\n\nআমার সিস্টেম একটি অনেক বেশি বুদ্ধিমান পদ্ধতি চালু করে। একইসাথে তাপমাত্রা ও CO₂ লেভেলের সম্মিলিত রিয়েল-টাইম ডেটা বিশ্লেষণ করে, সিস্টেম আগুনের প্রাচীনতম স্বাক্ষর -- তাপমাত্রায় হঠাৎ স্পাইক এবং CO₂-এ দ্রুত বৃদ্ধি -- দৃশ্যমান ধোঁয়া দেখা দেওয়ার অনেক আগেই শনাক্ত করতে পারে। সিস্টেম তখন তাৎক্ষণিকভাবে অ্যালার্ম বাজায়, ব্যবহারকারীর ফোনে জরুরি সতর্কবার্তা পাঠায়, এবং আক্রান্ত এলাকায় পাওয়ার স্বয়ংক্রিয়ভাবে কেটে দিতে বা জরুরি সেবায় খবর দিতে কনফিগার করা যেতে পারে।\n\nএই দ্বি-সেন্সর কোরিলেশন পদ্ধতি কার্যত মিথ্যা অ্যালার্ম দূর করে (যা ঐতিহ্যবাহী ধোঁয়া ডিটেক্টরে ভোগায় ও মানুষকে সেগুলো নিষ্ক্রিয় করতে বাধ্য করে), একইসাথে সত্যিকারের দ্রুততর ও নির্ভরযোগ্য আগুন শনাক্তকরণ প্রদান করে। এটি বাড়িকে যে কোনো গতানুগতিক পদ্ধতির চেয়ে শতভাগ বেশি নিরাপদ করে তোলে।"
+        },
+        "c47": {
+          "title": "৪.৭ অ্যান্টি-হ্যাকিং সিকিউরিটি ও লোকাল কন্ট্রোল",
+          "intro": "ইন্টারনেটের সাথে যুক্ত যেকোনো সিস্টেম দুটি স্বাভাবিক ঝুঁকির মুখোমুখি হয়: দূষিত ব্যক্তিদের দ্বারা হ্যাকিং এবং সার্ভার ডাউন বা ইন্টারনেট বিভ্রাটের কারণে সেবা বিঘ্ন। একটি স্মার্ট হোম যা ইন্টারনেট চলে যাওয়ার সাথে সাথেই বোবা হয়ে যায়, তা প্রকৃত অর্থে স্মার্ট নয় -- তা ভঙ্গুর।\n\nএটি সমাধান করতে আমি দুটি শক্তিশালী, স্বতন্ত্র ব্যাকআপ ব্যবস্থা তৈরি করেছি:",
+          "touchTitle": "লোকাল টাচস্ক্রিন ডিসপ্লে",
+          "touchDesc": "একটি ডেডিকেটেড টাচস্ক্রিন ডিসপ্লে বাড়ির ভেতরে লোকালি ইনস্টল করা আছে -- ফিজিক্যালি সিস্টেমের সাথে সংযুক্ত, কোনো বাহ্যিক নেটওয়ার্কের উপর নির্ভরশীল নয়। ব্যবহারকারী যে কোনো সময় এই ডিসপ্লের কাছে গিয়ে: স্পর্শের মাধ্যমে যেকোনো অটোমেশন নিয়ম তৈরি বা পরিবর্তন করতে পারেন, লাইভ ড্যাশবোর্ডে সকল রিয়েল-টাইম সেন্সর ডেটা দেখতে পারেন, টাচ ইন্টারফেসের মাধ্যমে প্রতিটি সংযুক্ত ডিভাইস ম্যানুয়ালি নিয়ন্ত্রণ করতে পারেন, এবং সিস্টেম স্টেটাস চেক করতে এবং সতর্কবার্তা গ্রহণ করতে পারেন।\n\nপুরো ইন্টারনেট ডাউন থাকলেও, টেলিগ্রাম সার্ভার অফলাইন থাকলেও বা মূল এআই ক্লাউড সেবা অপ্রাপ্য থাকলেও এটি কাজ করে। বাড়ি স্মার্ট, নিয়ন্ত্রণযোগ্য ও নিরাপদ থাকে -- বাহ্যিক কানেক্টিভিটির উপর সম্পূর্ণ স্বাধীন।",
+          "mwTitle": "মাল্টি-ওয়ে সুইচিং (অ্যান্টি-হ্যাকিং ব্যবস্থা)",
+          "mwDesc": "এটি সম্ভবত বাস্তব জগতের নির্ভরযোগ্যতার জন্য সবচেয়ে গুরুত্বপূর্ণ সুরক্ষা ফিচার। বাড়ির প্রতিটি বৈদ্যুতিক লোড (লাইট, ফ্যান, এসি, সকেট ইত্যাদি) দুটি সম্পূর্ণ স্বাধীন উপায়ে নিয়ন্ত্রণ করা যায়:\n\nপথ A -- মাইক্রোকন্ট্রোলার-ভিত্তিক ইন্টারনেট কন্ট্রোল (\"স্মার্ট\" পথ): ডিভাইসগুলো স্মার্ট সিস্টেমের সাথে সংযুক্ত এবং এআই-এর মাধ্যমে নিয়ন্ত্রিত।\n\nপথ B -- সাধারণ ঐতিহ্যবাহী ম্যানুয়াল সুইচ (\"ফুলপ্রুফ\" পথ): স্ট্যান্ডার্ড ফিজিক্যাল দেয়াল সুইচ যার সাথে কোনো নেটওয়ার্ক, মাইক্রোকন্ট্রোলার বা ইন্টারনেটের কোনো সংযোগই নেই।\n\nএই দুটি পথ সমান্তরালে বিদ্যমান। কোনো কারণে -- হ্যাকিং, মাইক্রোকন্ট্রোলার ব্যর্থতা, পাওয়ার সার্জ, ইন্টারনেট আউটেজ, সফটওয়্যার বাগ বা অন্য যেকোনো কিছু -- স্মার্ট কন্ট্রোল পথ বিঘ্নিত বা অপ্রাপ্য হয়ে গেলে ব্যবহারকারী শুধু দেয়ালের কাছে গিয়ে পুরনো দিনের ফিজিক্যাল সুইচ ব্যবহার করেন। লাইট জ্বলে। ফ্যান চলে। জীবন নির্বিঘ্নে চলতে থাকে।\n\nএই ডিজাইন দর্শন অত্যন্ত গুরুত্বপূর্ণ: প্রযুক্তির উচিত মানুষের সেবা করা, তাদের দাস বানানো নয়। একটি স্মার্ট হোমের উচিত নির্ভরযোগ্যতা বাড়ানো, নতুন ব্যর্থতার বিন্দু তৈরি করা নয়। অ্যাডভান্সড এআই কন্ট্রোলের পাশাপাশি ঐতিহ্যবাহী সুইচের সরলতা ও মজবুততা বজায় রেখে আমার সিস্টেম দুই জগতের সেরাটি প্রদান করে।"
+        }
+      },
+      "door": {
+        "title": "৪.৮ স্মার্ট ডোর সিকিউরিটি সিস্টেম",
+        "intro": "একটি বাড়ির প্রবেশপথ তার সবচেয়ে গুরুত্বপূর্ণ নিরাপত্তা বিন্দু। একটি দুর্বল দরজার তালা ঘরের ভেতরের অন্য সব নিরাপত্তা ব্যবস্থাকে অকার্যকর করে দেয়। বাড়ির প্রবেশপথকে সম্পূর্ণ নিরাপদ, সুবিধাজনক ও ভবিষ্যৎ-উপযোগী করতে আমার স্মার্ট ডোর সিস্টেম তিনটি অত্যাধুনিক এক্সেস পদ্ধতি অফার করে। ব্যবহারকারী যে কোনো মুহূর্তে তার পরিস্থিতির সাথে মানানসই পদ্ধতিটি বেছে নিতে পারেন।",
+        "methods": [
+          {
+            "icon": "fa-camera",
+            "title": "এআই ক্যামেরা ভিশন",
+            "desc": "প্রবেশ গেটে বসানো একটি হাই-রেজোলিউশন ক্যামেরা এআই-চালিত ফেসিয়াল রিকগনিশন প্রযুক্তি ব্যবহার করে রিয়েল-টাইমে চেহারা স্ক্যান ও বিশ্লেষণ করে। সিস্টেম প্রতিটি শনাক্তকৃত চেহারা তার অনুমোদিত ব্যক্তির ডেটাবেজের সাথে তুলনা করে। মিল পাওয়া গেলে দরজা সেকেন্ডের মধ্যে স্বয়ংক্রিয়ভাবে খুলে যায় -- অনুমোদিত ব্যক্তিকে কোনো বাটন চাপতে হয় না, কোনো কার্ড স্ক্যান করতে হয় না, কোনো কাজই করতে হয় না। প্রবেশের অভিজ্ঞতা নির্বিঘ্ন ও স্পর্শহীন। যদি কোনো চেহারা ডেটাবেজের কোনো এন্ট্রির সাথে না মেলে, দরজা নিরাপদে তালা বন্ধ রাখে। সিস্টেম ঐচ্ছিকভাবে অচেনা ব্যক্তির ছবি ধারণ করে বাড়ির মালিকের ফোনে সতর্কবার্তা পাঠাতে পারে।\n\nযানবাহন শনাক্তকরণ ফিচার: মানুষের চেহারার বাইরেও, এআই ক্যামেরা অনুমোদিত যানবাহন শনাক্ত করতেও প্রশিক্ষিত হতে পারে (লাইসেন্স প্লেট বা ভিজুয়াল বৈশিষ্ট্যের মাধ্যমে)। কোনো অনুমোদিত ব্যক্তির গাড়ি গেটের কাছে এলে সিস্টেম স্বয়ংক্রিয়ভাবে গেট খুলে দেয়, গাড়িটিকে নিরাপদে প্রবেশ করতে দেয় এবং একটি পূর্বনির্ধারিত সময় পর স্বয়ংক্রিয়ভাবে তালা লাগিয়ে দেয়। এতে চালককে থামতে, জানালা নামাতে বা কোনো এক্সেস ডিভাইসের সাথে ইন্টারঅ্যাক্ট করার প্রয়োজন পড়ে না -- যা একটি বিশাল সুবিধা, বিশেষত খারাপ আবহাওয়ার সময়।"
+          },
+          {
+            "icon": "fa-credit-card",
+            "title": "NFC কার্ড অ্যাক্সেস",
+            "desc": "যারা একটি স্পর্শযোগ্য এক্সেস পদ্ধতি পছন্দ করেন, তাদের জন্য সিস্টেম NFC (Near Field Communication) কার্ড অ্যাক্সেস সমর্থন করে। একজন অনুমোদিত ব্যবহারকারী শুধু তাদের পূর্ব-নিবন্ধিত NFC কার্ড দরজার পাশের রিডারে ট্যাপ করলেই দরজা তাৎক্ষণিকভাবে খুলে যায়। এটি আধুনিক অফিস ও হোটেলে ব্যবহৃত এক্সেস কার্ড সিস্টেমের মতো, কিন্তু হোম ইকোসিস্টেমে সংযুক্ত। NFC কার্ড সস্তা, ওয়ালেটে বহন করা সহজ এবং হারিয়ে গেলে দ্রুত নিষ্ক্রিয় করা যায় -- যা এটিকে একটি ব্যবহারিক দৈনন্দিন এক্সেস সমাধান করে তোলে।"
+          },
+          {
+            "icon": "fa-fingerprint",
+            "title": "বায়োমেট্রিক ফিঙ্গারপ্রিন্ট",
+            "desc": "সবচেয়ে দ্রুত ও ব্যক্তিগত এক্সেস অভিজ্ঞতার জন্য দরজা সিস্টেমে একটি বায়োমেট্রিক ফিঙ্গারপ্রিন্ট সেন্সর সংযুক্ত করা আছে। যখন একজন অনুমোদিত ব্যক্তি সেন্সরে তাঁর আঙুল রাখেন, সিস্টেম সংরক্ষিত ডেটাবেজের সাথে তাঁর অনন্য ফিঙ্গারপ্রিন্ট প্যাটার্ন মিলিয়ে পরিচয় যাচাই করে। যাচাই সেকেন্ডের ভগ্নাংশে সম্পন্ন হয় এবং দরজা তাৎক্ষণিকভাবে খুলে যায়। ফিঙ্গারপ্রিন্ট অ্যাক্সেসের একটি শক্তিশালী সুবিধা আছে: যে কার্ড হারিয়ে বা চুরি হতে পারে বা যে কোড ভুলে যাওয়া বা দেখা হয়ে যেতে পারে, তার বিপরীতে আপনার ফিঙ্গারপ্রিন্ট সবসময় আপনার সাথেই থাকে এবং সাধারণ উপায়ে নকল করা যায় না। এটি মানব প্রবেশের জন্য সর্বোচ্চ স্তরের সুবিধাজনক নিরাপত্তার প্রতিনিধিত্ব করে।"
+          }
+        ],
+        "securityLayers": "স্তরে স্তরে নিরাপত্তা: তিনটি পদ্ধতিই একইসাথে সহাবস্থান করে। • এআই ক্যামেরা ভিশন ➤ হ্যান্ডস-ফ্রি, স্পর্শহীন, গাড়ির জন্যও। • NFC কার্ড অ্যাক্সেস ➤ সরল, পরিচিত, সহজেই বদলানো যায়। • ফিঙ্গারপ্রিন্ট ➤ সবচেয়ে দ্রুত, ব্যক্তিগত, হারানো অসম্ভব। ব্যবহারকারী কখনোই একটি একক এক্সেস পদ্ধতির উপর নির্ভরশীল নন। ক্যামেরা ময়লা থাকলে, কার্ড ব্যবহার করুন। কার্ড ভুলে গেলে, ফিঙ্গারপ্রিন্ট ব্যবহার করুন। অপ্রয়োজনীয়তা = নির্ভরযোগ্যতা = প্রকৃত নিরাপত্তা।"
+      },
+      "gallery": {
+        "title": "ছবির গ্যালারি"
+      },
+      "conclusion": {
+        "title": "৫. উপসংহার: একটি স্মার্ট হোম নয় -- একটি স্মার্ট ইকোসিস্টেম",
+        "intro": "\"স্মার্ট হোম ইকোসিস্টেম\" প্রকল্পটি ক্রমবর্ধমান ভিড়ের হোম অটোমেশন ক্ষেত্রে আরেকটি সাধারণ এন্ট্রি নয়। এটি একটি সতর্কভাবে তৈরি, গভীরভাবে সমন্বিত সমাধান যা আমাদের সময়ের দুটি সবচেয়ে জরুরি চ্যালেঞ্জ -- জ্বালানি সংকট ও বুদ্ধিদীপ্ত জীবনযাপন -- একটি একক, ঐক্যবদ্ধ কাঠামোতে সমাধান করে।",
+        "genTitle": "জেনারেশন দৃষ্টিকোণ থেকে",
+        "genDesc": "আমরা নিশ্চিত করি যে আমরা প্রকৃতি থেকে সর্বোচ্চ সম্ভাব্য শক্তি সংগ্রহ করতে পারি -- কোনো অপচয় ছাড়াই, সঠিক তাপমাত্রায়, এবং সূর্যের দিকে সর্বোত্তম কোণে। আমরা সোলার প্যানেল শিল্পের সেই স্থিতাবস্থাকে উন্মোচন ও চ্যালেঞ্জ করছি যা নীরবে সাধারণ নাগরিকদের পরিশোধিত মূল্যের ২৫-৩০% চুরি করে নিচ্ছে। প্রস্তাবিত RTC নীতির মাধ্যমে আমরা সরকারের জন্য একটি দৃঢ় পথ দেখাই -- যাতে তারা তাদের জনগণকে রক্ষা করতে পারে এবং সততা ও স্বচ্ছতার সাথে তাদের নবায়নযোগ্য জ্বালানি লক্ষ্যমাত্রা অর্জন করতে পারে।",
+        "conTitle": "কনজাম্পশন দৃষ্টিকোণ থেকে",
+        "conDesc": "আমরা সেই পরিচ্ছন্ন, নবায়নযোগ্য শক্তিকে কৃত্রিম বুদ্ধিমত্তার প্রোবাবিলিস্টিক বুদ্ধিমত্তা এবং একটি মাল্টি-এজেন্ট সিস্টেম ব্যবহার করে নিয়ন্ত্রণ করছি যা চিন্তা করে, বোঝে এবং যত্ন নেয়। এটি এমন অটোমেশন নয় যা অন্ধের মতো কমান্ড অনুসরণ করে -- এটি এমন অটোমেশন যা মানুষের মুড বোঝে, পরিবেশগত প্রেক্ষাপটে অভিযোজিত হয়, এবং এমন বুদ্ধিদীপ্ত সিদ্ধান্ত গ্রহণ করে যা সত্যিকার অর্থে জীবনযাত্রার মান উন্নত করে।",
+        "unifyingVision": "একত্রীভূত ভিশন: এই প্রকল্পটি শক্তির যাত্রাকে তার উৎস -- সূর্য -- থেকে তার চূড়ান্ত, অর্থবহ ব্যবহার -- একটি আরামদায়ক, নিরাপদ ও প্রতিক্রিয়াশীল বাড়ি পর্যন্ত সংযুক্ত করে। উৎপাদিত প্রতিটি ওয়াট বিদ্যুৎ সম্মানিত, সুরক্ষিত এবং সর্বোচ্চ বুদ্ধিমত্তার সাথে ব্যবহৃত হয়। কিছুই অপচয় হয় না। কিছুই অযত্নে ছেড়ে দেয়া হয় না।",
+        "final": "এটি নিছক একটি স্মার্ট হোম নয়।\n\nএটি একটি স্বয়ংসম্পূর্ণ, নিরাপদ ও বুদ্ধিমান জীবনযাত্রার ইকোসিস্টেম -- যেখানে প্রযুক্তি জীবনকে জটিল করে না, বরং সমৃদ্ধ করে; যেখানে শক্তি অপচয়িত হয় না, বরং সম্মানিত হয়; যেখানে বাড়ি কেবল কমান্ডে সাড়া দেয় না, বরং প্রয়োজন বোঝে।\n\nএটাই ভবিষ্যতের জীবনযাত্রা -- এবং এর শুরু এখানেই।"
+      }
+    }
+};
+
+
+
+let currentLang = 'en';
+let currentTheme = 'dark';
+let currentLightboxIndex = 0;
+let heroSlideIndex = 0;
+let heroSlideTimer = null;
+
+const images = [
+  { src: 'images/champion_trophy.jpg', alt: 'Champion Trophy Receiving Moment' },
+  { src: 'images/champion_with_teachers.jpg', alt: 'Champion First Runner Up Second Runner Up With Teachers' },
+  { src: 'images/with_sir.jpg', alt: 'With Sir' },
+  { src: 'images/with_sir_friends.jpg', alt: 'With Sir And Friends' },
+  { src: 'images/Honorable_Minister_Speech_Moment.jpeg', alt: 'Honorable Minister Speech Moment' },
+  { src: 'images/Institution_Level_Trophy_Receiving.jpeg', alt: 'Institution Level Trophy Receiving' },
+  { src: 'images/Institution_Level_Winner_With_Certificate.jpeg', alt: 'Institution Level Winner With Certificate' },
+  { src: 'images/Secretary_Technical_And_Madrasa_Education_Speech.jpeg', alt: 'Secretary Technical And Madrasa Education Speech' },
+  { src: 'images/Students_Rally_During_Competition.jpeg', alt: 'Students Rally During Competition' }
+];
+
+const imgAlts = {
+  en: [
+    'Champion Trophy Receiving Moment',
+    'Champion, First Runner-Up & Second Runner-Up With Teachers',
+    'With Sir',
+    'With Sir And Friends',
+    'Honorable Minister Speech Moment',
+    'Institution Level Trophy Receiving',
+    'Institution Level Winner With Certificate',
+    'Secretary Technical And Madrasa Education Speech',
+    'Students Rally During Competition'
+  ],
+  bn: [
+    'চ্যাম্পিয়ন ট্রফি গ্রহণের মুহূর্ত',
+    'চ্যাম্পিয়ন, প্রথম ও দ্বিতীয় রানার-আপ শিক্ষকদের সাথে',
+    'স্যারের সাথে',
+    'স্যার ও বন্ধুদের সাথে',
+    'মাননীয় মন্ত্রীর বক্তৃতার মুহূর্ত',
+    'প্রতিষ্ঠান পর্যায়ে ট্রফি গ্রহণ',
+    'প্রতিষ্ঠান পর্যায়ে বিজয়ী সনদপত্রসহ',
+    'কারিগরি ও মাদ্রাসা শিক্ষা সচিবের বক্তৃতা',
+    'প্রতিযোগিতা চলাকালীন শিক্ষার্থীদের র্যালি'
+  ]
+};
+
+function $(id) { return document.getElementById(id); }
+
+function setText(id, text) {
+  const el = $(id);
+  if (el) el.textContent = text;
+}
+
+function setHtml(id, html) {
+  const el = $(id);
+  if (el) el.innerHTML = html;
+}
+
+function renderContent(lang) {
+  const c = content[lang];
+
+  // Nav
+  document.querySelectorAll('[data-i18n]').forEach(el => {
+    const key = el.getAttribute('data-i18n');
+    const keys = key.split('.');
+    let val = c;
+    for (const k of keys) val = val[k];
+    if (val) el.textContent = val;
+  });
+
+  // Hero
+  setText('heroTitle', c.hero.title);
+  setText('heroTagline', c.hero.tagline);
+
+  // Presenter
+  setText('presenterTitle', c.presenter.title);
+  c.presenter.rows.forEach((row, i) => {
+    setText(`pLabel${i}`, row[0]);
+    setText(`pValue${i}`, row[1]);
+  });
+  setText('presenterBio', c.presenter.bio);
+
+  // Core Idea
+  setText('coreTitle', c.coreIdea.title);
+  setText('coreDesc', c.coreIdea.desc);
+  setText('pillar1Title', c.coreIdea.p1Title);
+  setText('pillar1Desc', c.coreIdea.p1Desc);
+  setText('pillar2Title', c.coreIdea.p2Title);
+  setText('pillar2Desc', c.coreIdea.p2Desc);
+  setText('coreUniqueStatement', c.coreIdea.uniqueStatement);
+
+  // Generation
+  const g = c.generation;
+  setText('genTitle', g.title);
+  setText('gen31Title', g.stc.title);
+  setText('gen31Content1', g.stc.c1);
+  setText('gen31Content2', g.stc.c2);
+  setText('gen31Stc1', g.stc.stc1);
+  setText('gen31Stc2', g.stc.stc2);
+  setText('gen31Stc3', g.stc.stc3);
+  setText('gen31Eff', g.stc.eff);
+  setText('gen31Deception', g.stc.deception);
+  setText('gen32Title', g.tempCoeff.title);
+  setText('gen32Content', g.tempCoeff.content);
+  setText('gen32Calc1', g.tempCoeff.calcIntro);
+  setText('gen32Calc2', g.tempCoeff.calc1);
+  setText('gen32Calc3', g.tempCoeff.calc2);
+  setText('gen32Calc4', g.tempCoeff.calc3);
+  setText('gen32Calc5', g.tempCoeff.calc4);
+  setHtml('gen32Calc6', g.tempCoeff.calc5);
+  setHtml('gen32CalcResult', g.tempCoeff.calcResult);
+  setText('gen32Calc7', g.tempCoeff.calc6);
+  setText('gen32CalcLifespan', g.tempCoeff.calcLifespan);
+  setText('gen32Calc8', g.tempCoeff.calc7);
+
+  setText('gen32Example', g.tempCoeff.example);
+  setText('gen33Title', g.solution.title);
+  setText('gen33Intro', g.solution.intro);
+  setText('gen33Feat1Title', g.solution.feat1Title);
+  setText('gen33Feat1Desc', g.solution.feat1Desc);
+  setText('gen33Feat2Title', g.solution.feat2Title);
+  setText('gen33Feat2Desc', g.solution.feat2Desc);
+  setText('gen33Combined', g.solution.combined);
+  setText('gen34Title', g.national.title);
+  setText('gen34Content', g.national.content);
+  setText('gen35Title', g.rtc.title);
+  setText('gen35Content1', g.rtc.c1);
+  setText('gen35Content2', g.rtc.c2);
+  setText('gen35RtcTitle', g.rtc.rtcTitle);
+  setText('gen35Rtc1', g.rtc.rtc1);
+  setText('gen35Rtc2', g.rtc.rtc2);
+  setText('gen35Rtc3', g.rtc.rtc3);
+  setText('gen35BenefitsTitle', g.rtc.benefitsTitle);
+  setText('gen35Benefit1', g.rtc.b1);
+  setText('gen35Benefit2', g.rtc.b2);
+  setText('gen35Benefit3', g.rtc.b3);
+  setText('gen35Benefit4', g.rtc.b4);
+  setText('gen35Benefit5', g.rtc.b5);
+
+  // Consumption
+  const co = c.consumption;
+  setText('conTitle', co.title);
+  setText('conIntro', co.intro);
+  setText('con41Title', co.c41.title);
+  setText('con41Content', co.c41.content);
+  setText('con42Title', co.c42.title);
+  setText('con42Intro', co.c42.intro);
+
+  // Agent cards
+  const agentGrid = $('agentGrid');
+  agentGrid.innerHTML = co.c42.agents.map(a => `
+    <div class="card">
+      <div class="card-icon"><i class="fa-solid fa-${a.icon}"></i></div>
+      <h3>${a.name}</h3>
+      <p>${a.desc}</p>
+    </div>
+  `).join('');
+  setText('con42Custom', co.c42.custom);
+  setText('agentExtraTitle', co.c42.extraTitle);
+  setText('agentExtraDesc', co.c42.extraDesc);
+
+  setText('con43Title', co.c43.title);
+  setText('con43DetTitle', co.c43.detTitle);
+  setText('con43DetDesc', co.c43.detDesc);
+  setText('con43ProbTitle', co.c43.probTitle);
+  setText('con43ProbDesc', co.c43.probDesc);
+
+  // Workflow steps
+  setText('con44Title', co.c44.title);
+  setText('con44Intro', co.c44.intro);
+  $('workflowSteps').innerHTML = co.c44.steps.map((s, i) => `
+    <div class="step-item">
+      <div class="step-num">${i + 1}</div>
+      <div class="step-content"><h4>${s.title}</h4><p>${s.desc}</p></div>
+    </div>
+  `).join('');
+
+  // Mood cards
+  setText('con45Title', co.c45.title);
+  setText('con45Intro', co.c45.intro);
+  setText('con45HowItWorks', co.c45.howItWorks);
+  $('moodGrid').innerHTML = co.c45.moods.map(m => `
+    <div class="mood-card">
+      <h4><i class="fa-solid fa-${m.emoji}"></i> ${m.title}</h4>
+      <div class="mood-msg">"${m.msg}"</div>
+      <p>${m.desc}</p>
+    </div>
+  `).join('');
+
+  setText('con46Title', co.c46.title);
+  setText('con46Content', co.c46.content);
+  setText('con46CustomAuto', co.c46.customAuto);
+  setText('con46Fire', co.c46.fire);
+
+  setText('con47Title', co.c47.title);
+  setText('con47Intro', co.c47.intro);
+  setText('con47TouchTitle', co.c47.touchTitle);
+  setText('con47TouchDesc', co.c47.touchDesc);
+  setText('con47MwTitle', co.c47.mwTitle);
+  setText('con47MwDesc', co.c47.mwDesc);
+
+  // Security (Door)
+  setText('doorTitle', c.door.title);
+  setText('doorIntro', c.door.intro);
+  c.door.methods.forEach((m, i) => {
+    setText(`doorMethod${i+1}Title`, m.title);
+    setText(`doorMethod${i+1}Desc`, m.desc);
+  });
+  setText('doorSecurityLayers', c.door.securityLayers);
+
+  // Gallery
+  setText('galleryTitle', c.gallery.title);
+  renderGallery(lang);
+
+  // Conclusion
+  setText('concTitle', c.conclusion.title);
+  setText('concIntro', c.conclusion.intro);
+  setText('concGenTitle', c.conclusion.genTitle);
+  setText('concGenDesc', c.conclusion.genDesc);
+  setText('concConTitle', c.conclusion.conTitle);
+  setText('concConDesc', c.conclusion.conDesc);
+  setText('concFinal', c.conclusion.final);
+  setText('concUnifyingVision', c.conclusion.unifyingVision);
+
+  // Update nav icons text
+  renderNavIcons(lang);
+}
+
+function renderNavIcons(lang) {
+  const navMapping = [
+    { id: 'nav.home', icon: 'fa-house', label: 'Home' },
+    { id: 'nav.generation', icon: 'fa-bolt', label: 'Generation' },
+    { id: 'nav.consumption', icon: 'fa-microchip', label: 'Consumption' },
+    { id: 'nav.security', icon: 'fa-shield-halved', label: 'Security' },
+    { id: 'nav.gallery', icon: 'fa-images', label: 'Gallery' },
+    { id: 'nav.conclusion', icon: 'fa-flag-checkered', label: 'Conclusion' }
+  ];
+  // Nav links already handled by data-i18n attribute
+  setText('langBtn', lang === 'en' ? 'BN' : 'EN');
+}
+
+function renderGallery(lang) {
+  const grid = $('galleryGrid');
+  const alts = imgAlts[lang];
+  grid.innerHTML = images.map((img, i) => `
+    <div class="gallery-item" onclick="openLightbox(${i})">
+      <img src="${img.src}" alt="${alts[i]}" loading="lazy"
+        onerror="this.parentElement.innerHTML='<div class=\\'gallery-placeholder\\'><i class=\\'fa-solid fa-image\\'></i></div>'">
+    </div>
+  `).join('');
+}
+
+function openLightbox(index) {
+  currentLightboxIndex = index;
+  $('lightboxImg').src = images[index].src;
+  $('lightbox').classList.add('active');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeLightbox() {
+  $('lightbox').classList.remove('active');
+  document.body.style.overflow = '';
+}
+
+function prevImage() {
+  currentLightboxIndex = (currentLightboxIndex - 1 + images.length) % images.length;
+  $('lightboxImg').src = images[currentLightboxIndex].src;
+}
+
+function nextImage() {
+  currentLightboxIndex = (currentLightboxIndex + 1) % images.length;
+  $('lightboxImg').src = images[currentLightboxIndex].src;
+}
+
+function startHeroSlideshow() {
+  if (images.length === 0) return;
+  const heroBlur = $('heroBlur');
+  const heroSharp = $('heroSharp');
+  const url = `url('${images[heroSlideIndex].src}')`;
+  heroBlur.style.backgroundImage = url;
+  heroSharp.style.backgroundImage = url;
+
+  heroSlideTimer = setInterval(function() {
+    heroSlideIndex = (heroSlideIndex + 1) % images.length;
+    const newUrl = `url('${images[heroSlideIndex].src}')`;
+    heroBlur.style.backgroundImage = newUrl;
+    heroSharp.style.backgroundImage = newUrl;
+  }, 4000);
+}
+
+function stopHeroSlideshow() {
+  if (heroSlideTimer) {
+    clearInterval(heroSlideTimer);
+    heroSlideTimer = null;
+  }
+}
+
+function toggleLanguage() {
+  currentLang = currentLang === 'en' ? 'bn' : 'en';
+  localStorage.setItem('lang', currentLang);
+  renderContent(currentLang);
+  initRevealElements();
+  initScrollObserver();
+}
+
+function toggleTheme() {
+  currentTheme = currentTheme === 'dark' ? 'light' : 'dark';
+  document.documentElement.setAttribute('data-theme', currentTheme);
+  localStorage.setItem('theme', currentTheme);
+  const icon = $('themeBtn').querySelector('i');
+  icon.className = currentTheme === 'dark' ? 'fa-solid fa-sun' : 'fa-solid fa-moon';
+}
+
+function init() {
+  // Load preferences
+  const savedLang = localStorage.getItem('lang') || 'en';
+  const savedTheme = localStorage.getItem('theme') || 'dark';
+  currentLang = savedLang;
+  currentTheme = savedTheme;
+
+  document.documentElement.setAttribute('data-theme', currentTheme);
+  const themeIcon = $('themeBtn').querySelector('i');
+  themeIcon.className = currentTheme === 'dark' ? 'fa-solid fa-sun' : 'fa-solid fa-moon';
+
+  renderContent(currentLang);
+  startHeroSlideshow();
+  initRevealElements();
+  initScrollObserver();
+
+  // Event listeners
+  $('langBtn').addEventListener('click', toggleLanguage);
+  $('themeBtn').addEventListener('click', toggleTheme);
+  $('lightboxClose').addEventListener('click', closeLightbox);
+  $('lightboxPrev').addEventListener('click', function(e) {
+    e.stopPropagation();
+    prevImage();
+  });
+  $('lightboxNext').addEventListener('click', function(e) {
+    e.stopPropagation();
+    nextImage();
+  });
+  $('lightbox').addEventListener('click', function(e) {
+    if (e.target === this) closeLightbox();
+  });
+  document.addEventListener('keydown', function(e) {
+    if ($('lightbox').classList.contains('active')) {
+      if (e.key === 'ArrowLeft') prevImage();
+      if (e.key === 'ArrowRight') nextImage();
+    }
+    if (e.key === 'Escape') closeLightbox();
+  });
+
+  // Scroll: progress bar, scroll-to-top, navbar, active nav
+  var scrollTopBtn = $('scrollTop');
+  var navbar = document.querySelector('.navbar');
+  var progressBar = $('scrollProgress');
+  window.addEventListener('scroll', function() {
+    var y = window.scrollY;
+
+    // Progress bar
+    var docH = document.documentElement.scrollHeight - window.innerHeight;
+    if (docH > 0) {
+      progressBar.style.width = Math.min((y / docH) * 100, 100) + '%';
+    }
+
+    // Scroll to top button
+    if (y > 400) scrollTopBtn.classList.add('visible');
+    else scrollTopBtn.classList.remove('visible');
+
+    // Navbar scrolled class
+    if (y > 50) navbar.classList.add('scrolled');
+    else navbar.classList.remove('scrolled');
+
+    // Active nav link
+    var sections = ['hero', 'generation', 'consumption', 'security', 'gallery', 'conclusion'];
+    var links = document.querySelectorAll('.nav-links a');
+    var current = '';
+    sections.forEach(function(id) {
+      var el = document.getElementById(id);
+      if (el && y >= el.offsetTop - 100) {
+        current = id;
+      }
+    });
+    links.forEach(function(link) {
+      link.classList.remove('active');
+      if (link.getAttribute('href') === '#' + current) {
+        link.classList.add('active');
+      }
+    });
+  });
+  scrollTopBtn.addEventListener('click', function() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+
+  // Hamburger
+  $('hamburger').addEventListener('click', function() {
+    $('navLinks').classList.toggle('open');
+  });
+  document.querySelectorAll('.nav-links a').forEach(function(link) {
+    link.addEventListener('click', function() { $('navLinks').classList.remove('open'); });
+  });
+}
+
+function initRevealElements() {
+  var selectors = [
+    '.section-title', '.section-subtitle', '.card', '.info-box',
+    '.pillar-card', '.step-item', '.mood-card', '.gallery-item',
+    '.highlight-box', '.presenter-bio', '.agent-extra', '.info-table',
+    '.calc-box', '.two-col > *', '.card-grid > *', '.footer',
+    '.param-list li'
+  ];
+  selectors.forEach(function(sel) {
+    document.querySelectorAll(sel).forEach(function(el) {
+      el.classList.add('reveal');
+    });
+  });
+}
+
+function initScrollObserver() {
+  var observer = new IntersectionObserver(function(entries) {
+    entries.forEach(function(entry) {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+
+  document.querySelectorAll('.reveal').forEach(function(el) {
+    observer.observe(el);
+  });
+}
+
+document.addEventListener('DOMContentLoaded', init);
+</script>
+
+<button class="scroll-top" id="scrollTop" title="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+</body>
+</html>
